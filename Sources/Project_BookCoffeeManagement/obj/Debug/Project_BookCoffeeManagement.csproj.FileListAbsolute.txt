@@ -1,0 +1,168 @@
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe.config
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.pdb
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csprojResolveAssemblyReference.cache
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.MainActive.resources
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Properties.Resources.resources
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csproj.GenerateResource.Cache
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.exe
+c:\users\lynz\documents\visual studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.pdb
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.OrderForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.MenuForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.BookForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.WishlistForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate_SelectionCollector.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Ingredient_Form.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VIPForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StaffForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StockForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.Stock_ItemForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoginForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.ScheduleForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VoucherForm.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_Staff_Form.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Book_Form.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Dish_Drink_Form.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_StockItems_Form.resources
+C:\Users\Lynz\Documents\Visual Studio 2015\Projects\Project_BookCoffeeManagement\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SearchForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Project_BookCoffee_App\Project_BookCoffeeManagement (new GUI)\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe.config
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Project_BookCoffee_App\Project_BookCoffeeManagement (new GUI)\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.exe
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Project_BookCoffee_App\Project_BookCoffeeManagement (new GUI)\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.pdb
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe.config
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.exe
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.pdb
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.pdb
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csprojResolveAssemblyReference.cache
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Book_Form.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Dish_Drink_Form.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_Staff_Form.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_StockItems_Form.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.BookForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.ScheduleForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SearchForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StaffForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StockForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.Stock_ItemForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VIPForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VoucherForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate_SelectionCollector.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.MenuForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.OrderForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Ingredient_Form.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.WishlistForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoginForm.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.MainActive.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Properties.Resources.resources
+G:\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csproj.GenerateResource.Cache
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe.config
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.exe
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.pdb
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csprojResolveAssemblyReference.cache
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Book_Form.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Dish_Drink_Form.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_Staff_Form.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_StockItems_Form.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.BookForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.ScheduleForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SearchForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StaffForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StockForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.Stock_ItemForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VIPForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VoucherForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate_SelectionCollector.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.MenuForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.OrderForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Ingredient_Form.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.WishlistForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoginForm.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.MainActive.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Properties.Resources.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csproj.GenerateResource.Cache
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.pdb
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoadingScreen.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\bin\Debug\Vi\Project_BookCoffeeManagement.resources.dll
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\bin\Debug\En\Project_BookCoffeeManagement.resources.dll
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Resources.Languages.Language.Vi.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Resources.Languages.Language.En.resources
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Vi\Project_BookCoffeeManagement.resources.dll
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\En\Project_BookCoffeeManagement.resources.dll
+C:\Users\Lynz\Documents\GitHub\Book-coffee-management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SettingForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe.config
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.pdb
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\Vi\Project_BookCoffeeManagement.resources.dll
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\bin\Debug\En\Project_BookCoffeeManagement.resources.dll
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csprojResolveAssemblyReference.cache
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SettingForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Book_Form.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Dish_Drink_Form.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_Staff_Form.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_StockItems_Form.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.BookForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.ScheduleForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SearchForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StaffForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StockForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.Stock_ItemForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VIPForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VoucherForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate_SelectionCollector.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.MenuForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.OrderForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Ingredient_Form.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.WishlistForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoadingScreen.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoginForm.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.MainActive.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Properties.Resources.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Resources.Languages.Language.Vi.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Resources.Languages.Language.En.resources
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csproj.GenerateResource.Cache
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Vi\Project_BookCoffeeManagement.resources.dll
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\En\Project_BookCoffeeManagement.resources.dll
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.exe
+C:\Users\Phate Opera\Desktop\WinApp___Book_coffee_management\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.pdb
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe.config
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.exe
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.pdb
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.exe
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\bin\Debug\Project_BookCoffeeManagement.pdb
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\bin\Debug\Vi\Project_BookCoffeeManagement.resources.dll
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\bin\Debug\En\Project_BookCoffeeManagement.resources.dll
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csprojResolveAssemblyReference.cache
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SettingForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Book_Form.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Dish_Drink_Form.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_Staff_Form.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Collector_forms.Select_StockItems_Form.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.BookForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.ScheduleForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.SearchForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StaffForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.StockForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.Stock_ItemForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VIPForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.IO_forms.VoucherForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.FormTemplate_SelectionCollector.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.MenuForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.OrderForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.Select_Ingredient_Form.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.Input_Output_Forms.WishlistForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoadingScreen.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.GUI.LoginForm.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.MainActive.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Properties.Resources.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Resources.Languages.Language.Vi.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.Resources.Languages.Language.En.resources
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Project_BookCoffeeManagement.csproj.GenerateResource.Cache
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\Vi\Project_BookCoffeeManagement.resources.dll
+C:\Users\Phate Opera\Desktop\New-folder\New folder\Sources\Project_BookCoffeeManagement\obj\Debug\En\Project_BookCoffeeManagement.resources.dll

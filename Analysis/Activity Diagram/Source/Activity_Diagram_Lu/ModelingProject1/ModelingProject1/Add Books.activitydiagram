@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="51474586-1900-479c-ac2d-1989ea852c99" name="Add Books" linkedPackageId="40f17655-548c-4917-afbc-d9eff420dbc4" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="df700f63-1dce-4c18-b0dc-8c26e66f2fcc" name="Add Books" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="fd065e90-ca37-40d1-a6a2-83f0028f9f1a" />
+        <nodes>
+          <initialNode Id="bf273613-7402-4f9d-8fbe-13b7f43d73de" name="Initial1" isLeaf="false">
+            <elementDefinition Id="1ee45406-a3fa-4f81-95bc-604578f0151d" />
+            <flowNodeTargets>
+              <controlFlow Id="0d98474b-a810-48a2-a340-26a627b1f336" isLeaf="false">
+                <opaqueActionMoniker Id="d688ba3d-28be-4b5a-a5a8-8a660ac2e227" LastKnownName="Click &quot;Book&quot; tab on the main menu" />
+                <elementDefinition Id="d5d7b9e1-d082-4520-9e60-7f31297521d5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode Id="8b69ef74-c06b-45a4-8ace-2e5c49f8d7fd" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="164bfdfe-4ba3-4530-8125-2c03b0231526" />
+          </activityFinalNode>
+          <opaqueAction Id="44fdb796-9d11-4076-a4b8-06cb1f49f5f6" name="Click &quot;Add Book&quot;" isLeaf="false">
+            <elementDefinition Id="2f99f8d7-7785-46f5-9b69-71ba58db6217" />
+            <flowNodeTargets>
+              <controlFlow Id="c93a1dfc-1f83-4f65-bb05-db479336cc8b" isLeaf="false">
+                <opaqueActionMoniker Id="df66c9cc-8831-4745-959a-0b2ad844051c" LastKnownName="Add Information " />
+                <elementDefinition Id="b02dfdb1-7e5e-4f58-8611-bcee4e72880a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="df66c9cc-8831-4745-959a-0b2ad844051c" name="Add Information " isLeaf="false">
+            <elementDefinition Id="1d00da18-e9af-4140-bcd8-e21bab8f031a" />
+            <flowNodeTargets>
+              <controlFlow Id="becc15d6-ebe0-4f87-831d-b66ac99beae4" isLeaf="false">
+                <decisionNodeMoniker Id="50c73673-a67b-4294-9150-8ca51d0099c0" LastKnownName="Decision1" />
+                <elementDefinition Id="7e2d7940-026b-4cba-93d5-99ad58ee3bf4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="3110ce80-d2e3-4250-a108-6fe34bc44397" name="Click Ok" isLeaf="false">
+            <elementDefinition Id="9c8b30b2-92b5-4587-a41d-c1061e070f8c" />
+            <flowNodeTargets>
+              <controlFlow Id="797ef709-e33b-41ac-bf2b-417546722d1b" isLeaf="false">
+                <opaqueActionMoniker Id="69b73436-c4ae-4437-8eb8-014cd0cb8529" LastKnownName="Save Information into DB" />
+                <elementDefinition Id="1ee20dc3-48d4-4fdb-bec1-2b58f054f45d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="50c73673-a67b-4294-9150-8ca51d0099c0" name="Decision1" isLeaf="false">
+            <elementDefinition Id="fbaf2f24-04a5-45df-bbbd-0cbf802c954d" />
+            <flowNodeTargets>
+              <controlFlow Id="5be02db6-1237-47cf-b0fa-b580f304e1ef" isLeaf="false">
+                <opaqueActionMoniker Id="3110ce80-d2e3-4250-a108-6fe34bc44397" LastKnownName="Click Ok" />
+                <elementDefinition Id="82f2876a-9d91-4fe8-bb16-17a17ee36a3e" />
+              </controlFlow>
+              <controlFlow Id="e3b205e9-8a0c-4ecd-a0eb-e72a4e4419d0" isLeaf="false">
+                <opaqueActionMoniker Id="6222cb9a-21f4-48db-847e-4b4615a81f6d" LastKnownName="Click Cancel" />
+                <elementDefinition Id="3034919d-81e4-4db9-9c27-bd333c3119f1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="6222cb9a-21f4-48db-847e-4b4615a81f6d" name="Click Cancel" isLeaf="false">
+            <elementDefinition Id="812bc86f-d8ea-4c15-b98a-113b82cd6a66" />
+            <flowNodeTargets>
+              <controlFlow Id="6a8df209-119c-40f1-a447-3f15744e6195" isLeaf="false">
+                <activityFinalNodeMoniker Id="8b69ef74-c06b-45a4-8ace-2e5c49f8d7fd" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="66b38255-4e7c-4018-8b2a-a3b055622370" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="69b73436-c4ae-4437-8eb8-014cd0cb8529" name="Save Information into DB" isLeaf="false">
+            <elementDefinition Id="c019ea4c-2111-4df5-b32d-839cc7defc94" />
+            <flowNodeTargets>
+              <controlFlow Id="eabffb96-0a68-4f78-93d2-52d37b116ac9" isLeaf="false">
+                <activityFinalNodeMoniker Id="8b69ef74-c06b-45a4-8ace-2e5c49f8d7fd" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="b49d3e73-9ec8-4506-813f-35e9cf15f268" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="8236bbdd-74c4-4aa4-90c9-b01ea2e927f4" name="Warehouse Manager" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="3887ff42-c89d-4db5-8f1a-873bd7dda04b" />
+            <upperBound>
+              <literalInteger Id="67bc7492-0c6f-4637-b3b6-a901891588a7" name="2147483647" value="2147483647">
+                <elementDefinition Id="45aa4759-37fd-4008-8b56-4dacfd16da62" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="09b99ae6-ab91-48ba-a13e-a38b40d69520" name="System" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="d3461500-8dc4-42c1-87c4-c39b00dce98c" />
+            <upperBound>
+              <literalInteger Id="1173084f-630e-44b3-b12a-566c15142f63" name="2147483647" value="2147483647">
+                <elementDefinition Id="301c24c7-510f-478b-92cc-76e91ab2a85b" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <opaqueAction Id="d688ba3d-28be-4b5a-a5a8-8a660ac2e227" name="Click &quot;Book&quot; tab on the main menu" isLeaf="false">
+            <elementDefinition Id="c5e5689a-3557-4715-87a8-15d16d3293ca" />
+            <flowNodeTargets>
+              <controlFlow Id="28614504-4b19-4523-b8ac-5d9ada6b774a" isLeaf="false">
+                <opaqueActionMoniker Id="bb228b78-2bd9-4177-bc3d-ee9a9356f876" LastKnownName="Display list of books" />
+                <elementDefinition Id="5364d4bc-50bf-4a9b-a4b2-4db407346703" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="bb228b78-2bd9-4177-bc3d-ee9a9356f876" name="Display list of books" isLeaf="false">
+            <elementDefinition Id="224ec410-2e32-43bd-873f-c959157a8dd8" />
+            <flowNodeTargets>
+              <controlFlow Id="47e6dca3-0ff6-4ef0-bb7d-8b3fc0ba30e8" isLeaf="false">
+                <opaqueActionMoniker Id="44fdb796-9d11-4076-a4b8-06cb1f49f5f6" LastKnownName="Click &quot;Add Book&quot;" />
+                <elementDefinition Id="6859839a-0786-4936-a3e3-e8ef87d9d641" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="40f17655-548c-4917-afbc-d9eff420dbc4" name="ModelingProject1">
+    <elementDefinition Id="5c797800-1ba2-47f9-9232-44cf029a44c0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="6a31d204-8c18-49d6-88f4-153bc061d0ee">
+        <profileInstance Id="576a5185-8616-4269-9b02-d0d2b896fefa" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="97a16a9b-af09-4883-b6e7-77622e109200">
+        <profileInstance Id="bda530d2-a22d-49a7-af7e-71e74043e494" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

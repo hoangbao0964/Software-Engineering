@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="435e9a69-54dd-41fc-bacb-333d060bfd83" name="Create Schedule" linkedPackageId="66266121-3728-45ff-a384-b00529a62492" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="ca980553-ded1-4db3-bf5f-6174b6018bc5" name="Create Schedule" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="b0a24811-87a5-4342-9138-965c046dc3f7" />
+        <nodes>
+          <activityFinalNode Id="d6c6adf5-7107-455d-b6f3-00ea94c32007" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="50c63972-a4c2-40ec-a365-eaa5b737d924" />
+          </activityFinalNode>
+          <opaqueAction Id="3050d5d6-3fa0-4ace-bdba-9a7e22def9d1" name="Cashier chooses shift" isLeaf="false">
+            <elementDefinition Id="b971f92e-a5bc-447d-922f-dde81e1c44b9" />
+            <flowNodeTargets>
+              <controlFlow Id="1fb4ff02-e004-448d-947d-f104d5aefffe" isLeaf="false">
+                <opaqueActionMoniker Id="ed42ddd1-4557-4638-88cf-cf8f0c4d1229" LastKnownName="Cashier inputs staff name &amp; save" />
+                <elementDefinition Id="7ea4ea9d-97ba-4449-b0ee-ba85d9b9533b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ed42ddd1-4557-4638-88cf-cf8f0c4d1229" name="Cashier inputs staff name &amp; save" isLeaf="false">
+            <elementDefinition Id="8e6b4b9f-c8c8-4468-bb66-f2e2a9b05326" />
+            <flowNodeTargets>
+              <controlFlow Id="28eaedb8-bc97-4f79-827c-154ac52f6f2c" isLeaf="false">
+                <opaqueActionMoniker Id="8bdd9002-60f1-43cc-a992-dc71e912d1d7" LastKnownName="Save changes" />
+                <elementDefinition Id="5c9c2d66-d46c-4643-a9c8-0579e9a2be01" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="d4a2308b-ebee-410b-9889-696afaf162b9" name="Manager" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="4200bfff-679b-4f34-b53b-4620435e79e9" />
+            <upperBound>
+              <literalInteger Id="64ffec86-27e3-4106-82b0-8a50481a0007" name="2147483647" value="2147483647">
+                <elementDefinition Id="280e86d9-ab4d-404a-ac71-fec3ddb52b6f" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="9fa6f917-2784-4a02-b403-4c78993b6170" name="System" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="769be867-44c6-406f-854e-d8d270b714a7" />
+            <upperBound>
+              <literalInteger Id="d7b5b9b7-04d4-4e5b-b920-981b0921323a" name="2147483647" value="2147483647">
+                <elementDefinition Id="e8e2b163-c8e6-454b-9fc7-d11d59df56b3" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="c8057177-ac97-4366-bcab-e32e831f8af9" name="Initial11" isLeaf="false">
+            <elementDefinition Id="5ab7e799-9318-4aff-8420-c49409cff2fd" />
+            <flowNodeTargets>
+              <controlFlow Id="bfd36758-8425-416a-abf5-bbacfdf25e05" isLeaf="false">
+                <opaqueActionMoniker Id="bc46c3d8-f720-4f30-95e9-f6eaa91df0f5" LastKnownName="Click &quot;Staff&quot; tab on the main menu" />
+                <elementDefinition Id="3e7fed25-61e4-47b6-8531-dbcd34f0c4fd" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="bc46c3d8-f720-4f30-95e9-f6eaa91df0f5" name="Click &quot;Staff&quot; tab on the main menu" isLeaf="false">
+            <elementDefinition Id="7a7769d5-5461-463c-b539-e6857cd73f4c" />
+            <flowNodeTargets>
+              <controlFlow Id="f4edab3e-40c0-4aa1-80eb-c5f52a35b37f" isLeaf="false">
+                <opaqueActionMoniker Id="b3e699e5-eafa-4883-970d-c80bd79d7b02" LastKnownName="Display staff list" />
+                <elementDefinition Id="2d097eb2-5790-4978-890d-946af4444d9b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b3e699e5-eafa-4883-970d-c80bd79d7b02" name="Display staff list" isLeaf="false">
+            <elementDefinition Id="4accbe07-4df2-49b8-b209-227e410cf2f7" />
+            <flowNodeTargets>
+              <controlFlow Id="a31ce631-661a-4da1-9c6c-e0ada597ffb3" isLeaf="false">
+                <opaqueActionMoniker Id="97c66e15-3d3c-4af3-814a-886efc3c4fab" LastKnownName="Press &quot;View schedule&quot;" />
+                <elementDefinition Id="4a56e8c4-9d2a-41ab-8f73-dc93445b7c9a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="97c66e15-3d3c-4af3-814a-886efc3c4fab" name="Press &quot;View schedule&quot;" isLeaf="false">
+            <elementDefinition Id="1bcfb53a-8299-4add-b87a-2264229de67f" />
+            <flowNodeTargets>
+              <controlFlow Id="d8a81da8-3645-4c47-9fab-d973cf7cb0ec" isLeaf="false">
+                <opaqueActionMoniker Id="a75737f0-3048-40be-85d2-c725aeb2a83e" LastKnownName="Display schedule" />
+                <elementDefinition Id="ee611916-9c34-4e44-962c-c439d4ad8e7a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a75737f0-3048-40be-85d2-c725aeb2a83e" name="Display schedule" isLeaf="false">
+            <elementDefinition Id="2df7fb32-a1af-4e88-8ee4-fa90ca2b0203" />
+            <flowNodeTargets>
+              <controlFlow Id="c196eb91-e358-41c8-983e-81d3cf2337b4" isLeaf="false">
+                <opaqueActionMoniker Id="3050d5d6-3fa0-4ace-bdba-9a7e22def9d1" LastKnownName="Cashier chooses shift" />
+                <elementDefinition Id="9e63314a-9f99-46cc-847d-16b906947e2d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="8bdd9002-60f1-43cc-a992-dc71e912d1d7" name="Save changes" isLeaf="false">
+            <elementDefinition Id="797f2ffe-bf82-47a5-a488-6b249ba1c72e" />
+            <flowNodeTargets>
+              <controlFlow Id="88f6419c-02d5-4965-91d5-0c2ff33a0935" isLeaf="false">
+                <activityFinalNodeMoniker Id="d6c6adf5-7107-455d-b6f3-00ea94c32007" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="0fe35e91-477c-4e92-9f92-1d6b9d498156" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="66266121-3728-45ff-a384-b00529a62492" name="ModelingProject1">
+    <elementDefinition Id="5c797800-1ba2-47f9-9232-44cf029a44c0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="c6c2fb4e-9266-4405-b2a2-984bc4b16064">
+        <profileInstance Id="2d4819c3-4f76-4236-be26-ede5da95a669" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="68a87ae9-c1d2-46f3-b47d-f0660b84093c">
+        <profileInstance Id="e574cbd2-3fd0-4514-ada1-7cf9ff06eb82" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

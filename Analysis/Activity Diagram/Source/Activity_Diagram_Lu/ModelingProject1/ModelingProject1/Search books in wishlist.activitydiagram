@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="c081bb0d-8431-4609-85ee-bc4e89129216" name="Search books in wishlist" linkedPackageId="df8eaaeb-a95c-4961-8c94-0129e95ee695" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="93c00ff2-9c62-4416-a759-6a9d304ccf3c" name="Search books in wishlist" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="bb36d488-3377-40a0-a7ee-ac543b3cc1f0" />
+        <nodes>
+          <activityFinalNode Id="6d3d03e4-25b3-44bd-a9cf-6f76181e8044" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="4fabea68-6186-41df-b0bc-a707256ffc78" />
+          </activityFinalNode>
+          <opaqueAction Id="3eb82299-ea05-4df7-90b8-9efdf6aef07a" name="Display result by name" isLeaf="false">
+            <elementDefinition Id="ae397456-7600-49f6-abc0-c4551b417e0c" />
+            <flowNodeTargets>
+              <controlFlow Id="24550879-2f7b-40ab-bf97-937dfec90a37" isLeaf="false">
+                <activityFinalNodeMoniker Id="6d3d03e4-25b3-44bd-a9cf-6f76181e8044" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="1f42c6fe-7140-4b8d-b510-21cea783da2b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d42dab07-e178-43c6-8e6f-b8bbe3de6681" name="Click &quot;View book wishlist&quot;" isLeaf="false">
+            <elementDefinition Id="3bbfde88-b902-462a-bde7-e3e1e9ccaeeb" />
+            <flowNodeTargets>
+              <controlFlow Id="b26b58ab-af7d-4c6c-9141-2bbee2e89786" isLeaf="false">
+                <opaqueActionMoniker Id="4e6229df-8aef-4afd-9bed-6199a5443f7f" LastKnownName="Display book wishlist" />
+                <elementDefinition Id="9c8a0f62-5e32-4d4a-81b7-6fd4d95bae13" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="f5e1a180-f92e-4870-a49d-03a220de57f4" name="Staff" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="5c89d55c-aa5f-457c-8f4f-9c2bb042d0ed" />
+            <upperBound>
+              <literalInteger Id="47cb0d37-f0bb-4283-98ef-4b28e15a77a4" name="2147483647" value="2147483647">
+                <elementDefinition Id="86aa702b-7104-4cba-8390-d520eff8a948" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="b12d1d6d-27de-489b-a3fb-350d361f5fb3" name="System" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="7e35e950-805a-4276-8d8b-694d2f07bd1b" />
+            <upperBound>
+              <literalInteger Id="89bc751c-8cda-462f-ad6b-e143f2621d87" name="2147483647" value="2147483647">
+                <elementDefinition Id="3455abd6-846c-496f-baf2-235b450dc78f" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="5899c427-ff91-447c-aa7b-7c268cdeba41" name="Initial11" isLeaf="false">
+            <elementDefinition Id="4f8ff2e0-7aae-4eef-9e6d-077895bb9886" />
+            <flowNodeTargets>
+              <controlFlow Id="14766a5f-aef6-480f-9ad2-c8e2f6f588ea" isLeaf="false">
+                <opaqueActionMoniker Id="ed8b8ba9-a61d-4892-8467-15501c7435a8" LastKnownName="Click &quot;Book&quot; tab on the main menu" />
+                <elementDefinition Id="a77e3612-0009-4e73-8f27-a0db39336745" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="ed8b8ba9-a61d-4892-8467-15501c7435a8" name="Click &quot;Book&quot; tab on the main menu" isLeaf="false">
+            <elementDefinition Id="27e24d47-fd07-48f9-965e-ffc73e819e8b" />
+            <flowNodeTargets>
+              <controlFlow Id="675fc0d7-3ab9-4638-b31b-798ad09c50d6" isLeaf="false">
+                <opaqueActionMoniker Id="beb21806-be35-4a42-b299-591da9382fa4" LastKnownName="Display book list" />
+                <elementDefinition Id="bdca31fa-8584-4f17-8005-0d4275bb437c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="beb21806-be35-4a42-b299-591da9382fa4" name="Display book list" isLeaf="false">
+            <elementDefinition Id="27643794-7ffc-4b62-97a1-7eee98e2b10b" />
+            <flowNodeTargets>
+              <controlFlow Id="fd8b3b27-5471-480c-a15a-a78fff6bf149" isLeaf="false">
+                <opaqueActionMoniker Id="d42dab07-e178-43c6-8e6f-b8bbe3de6681" LastKnownName="Click &quot;View book wishlist&quot;" />
+                <elementDefinition Id="4bd8a4a0-2c94-428b-a33e-96fdb597820b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="4e6229df-8aef-4afd-9bed-6199a5443f7f" name="Display book wishlist" isLeaf="false">
+            <elementDefinition Id="4fde6be2-78f6-422b-8e20-4c9d88f23000" />
+            <flowNodeTargets>
+              <controlFlow Id="c3144d0a-9e0c-4882-b62f-83fe2aa08255" isLeaf="false">
+                <opaqueActionMoniker Id="37fec7df-4906-40be-b136-986f32b981fc" LastKnownName="Click Search icon" />
+                <elementDefinition Id="674efdfc-0686-47e7-a71d-1cb68e763b03" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="37fec7df-4906-40be-b136-986f32b981fc" name="Click Search icon" isLeaf="false">
+            <elementDefinition Id="17cdaf18-e4e8-4727-95a9-3cfdc82a4de9" />
+            <flowNodeTargets>
+              <controlFlow Id="03b803dc-9d96-49ef-9aba-3ded060cb11e" isLeaf="false">
+                <decisionNodeMoniker Id="0407082a-ef68-4df7-85e6-d4b0a6f5c911" LastKnownName="Decision1" />
+                <elementDefinition Id="861b4f3c-2e70-4930-8c43-457385313a76" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="0407082a-ef68-4df7-85e6-d4b0a6f5c911" name="Decision1" isLeaf="false">
+            <elementDefinition Id="63282d65-1d17-4703-b5ff-ec724b510ec1" />
+            <flowNodeTargets>
+              <controlFlow Id="6ad672aa-d2df-4618-bfe5-bf27159ec2cf" guard="Value in insert box" isLeaf="false">
+                <opaqueActionMoniker Id="3eb82299-ea05-4df7-90b8-9efdf6aef07a" LastKnownName="Display result by name" />
+                <elementDefinition Id="295d7eac-f767-4015-af82-8db87f06811c" />
+              </controlFlow>
+              <controlFlow Id="d266e5b8-988d-4346-a812-c367a3e132a8" guard="No value in insert box" isLeaf="false">
+                <opaqueActionMoniker Id="d7e52301-2ead-4ced-88b7-cd3acc511875" LastKnownName="Display search options" />
+                <elementDefinition Id="9aab09ab-23e5-420f-8408-02e03b8844b5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="d7e52301-2ead-4ced-88b7-cd3acc511875" name="Display search options" isLeaf="false">
+            <elementDefinition Id="d9e0a2d5-ab78-4f3b-8a45-2c95a1aa54d7" />
+            <flowNodeTargets>
+              <controlFlow Id="ee2ae872-1853-45d7-a802-ffb1e3d6a6f0" isLeaf="false">
+                <opaqueActionMoniker Id="ec052a2a-dcea-469e-9ed5-f48f7bf8071e" LastKnownName="Input information &amp; confirm" />
+                <elementDefinition Id="3466e157-cbbf-4521-a946-6eef2e11620d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ec052a2a-dcea-469e-9ed5-f48f7bf8071e" name="Input information &amp; confirm" isLeaf="false">
+            <elementDefinition Id="143ff6ca-f5fd-410a-9453-e6e36979d94f" />
+            <flowNodeTargets>
+              <controlFlow Id="1278983e-dc19-48ed-8cf2-5506e630eb96" isLeaf="false">
+                <opaqueActionMoniker Id="a1bb84d2-d3c2-44a5-85ae-e78d787b7a2a" LastKnownName="Display result" />
+                <elementDefinition Id="4ca314b4-b6c2-4ad6-a227-6c7dfb90fe47" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a1bb84d2-d3c2-44a5-85ae-e78d787b7a2a" name="Display result" isLeaf="false">
+            <elementDefinition Id="ce864b57-29db-404a-9073-b0a3d1aa5ad1" />
+            <flowNodeTargets>
+              <controlFlow Id="b85a63e5-3108-4bdf-a59d-9607a2364d87" isLeaf="false">
+                <activityFinalNodeMoniker Id="6d3d03e4-25b3-44bd-a9cf-6f76181e8044" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="b044ce5b-aa26-43c3-8cab-a426cef471e2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="df8eaaeb-a95c-4961-8c94-0129e95ee695" name="ModelingProject1">
+    <elementDefinition Id="5c797800-1ba2-47f9-9232-44cf029a44c0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3f1b9389-f851-4d42-b2d7-0e0c710d09cd">
+        <profileInstance Id="29bb5b28-b58e-4aed-8a91-cf1d36870a6a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f03c5548-40cb-442c-83e6-9c6c533c5327">
+        <profileInstance Id="b1e4d7bc-45a7-4a02-8633-537a19636c6b" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

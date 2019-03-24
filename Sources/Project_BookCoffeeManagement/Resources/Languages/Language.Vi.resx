@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bunifuCustomLabel1" xml:space="preserve">
+    <value>trong</value>
+  </data>
+  <data name="bunifuCustomLabel2" xml:space="preserve">
+    <value>trong</value>
+  </data>
+  <data name="bunifuCustomLabel_1" xml:space="preserve">
+    <value>trong</value>
+  </data>
+  <data name="bunifuCustomLabel_Address" xml:space="preserve">
+    <value>Địa chỉ :</value>
+  </data>
+  <data name="bunifuCustomLabel_AmountTendered" xml:space="preserve">
+    <value>Tiền nhận :</value>
+  </data>
+  <data name="bunifuCustomLabel_Author" xml:space="preserve">
+    <value>Tác giả :</value>
+  </data>
+  <data name="bunifuCustomLabel_BillCode" xml:space="preserve">
+    <value>Mã hóa đơn :</value>
+  </data>
+  <data name="bunifuCustomLabel_BookCode" xml:space="preserve">
+    <value>Mã sách :</value>
+  </data>
+  <data name="bunifuCustomLabel_Books_List" xml:space="preserve">
+    <value>Sách :</value>
+  </data>
+  <data name="bunifuCustomLabel_CashierName" xml:space="preserve">
+    <value>Tạo bởi :</value>
+  </data>
+  <data name="bunifuCustomLabel_ChangeGiven" xml:space="preserve">
+    <value>Tiền thối :</value>
+  </data>
+  <data name="bunifuCustomLabel_CivilianID" xml:space="preserve">
+    <value>Số CMND :</value>
+  </data>
+  <data name="bunifuCustomLabel_CreatedBy" xml:space="preserve">
+    <value>Tạo bởi :</value>
+  </data>
+  <data name="bunifuCustomLabel_CurrentPayment" xml:space="preserve">
+    <value>Tổng tiền :</value>
+  </data>
+  <data name="bunifuCustomLabel_CurrentSalary" xml:space="preserve">
+    <value>Lương :</value>
+  </data>
+  <data name="bunifuCustomLabel_DateCreated" xml:space="preserve">
+    <value>Ngày tạo :</value>
+  </data>
+  <data name="bunifuCustomLabel_DayOfBirth" xml:space="preserve">
+    <value>Ngày sinh :</value>
+  </data>
+  <data name="bunifuCustomLabel_Description" xml:space="preserve">
+    <value>Mô tả :</value>
+  </data>
+  <data name="bunifuCustomLabel_Dishes_Drinks_List" xml:space="preserve">
+    <value>Thức ăn &amp;&amp; nước uống :</value>
+  </data>
+  <data name="bunifuCustomLabel_ExpDate" xml:space="preserve">
+    <value>HSD :</value>
+  </data>
+  <data name="bunifuCustomLabel_ExpireDate" xml:space="preserve">
+    <value>HSD :</value>
+  </data>
+  <data name="bunifuCustomLabel_Filter_1" xml:space="preserve">
+    <value>ĐK 1 :</value>
+  </data>
+  <data name="bunifuCustomLabel_Filter_2" xml:space="preserve">
+    <value>ĐK 2 :</value>
+  </data>
+  <data name="bunifuCustomLabel_Filter_3" xml:space="preserve">
+    <value>ĐK 3 :</value>
+  </data>
+  <data name="bunifuCustomLabel_FirstName" xml:space="preserve">
+    <value>Tên :</value>
+  </data>
+  <data name="bunifuCustomLabel_Friday" xml:space="preserve">
+    <value>Thứ sáu</value>
+  </data>
+  <data name="bunifuCustomLabel_FullName" xml:space="preserve">
+    <value>Tên họ :</value>
+  </data>
+  <data name="bunifuCustomLabel_Gender" xml:space="preserve">
+    <value>Giới tính :</value>
+  </data>
+  <data name="bunifuCustomLabel_GrandTotal" xml:space="preserve">
+    <value>Tổng tiền  :</value>
+  </data>
+  <data name="bunifuCustomLabel_Ingredients" xml:space="preserve">
+    <value>Nguyên liệu :</value>
+  </data>
+  <data name="bunifuCustomLabel_LastName" xml:space="preserve">
+    <value>Họ :</value>
+  </data>
+  <data name="bunifuCustomLabel_ListItems" xml:space="preserve">
+    <value>Vật phẩm :</value>
+  </data>
+  <data name="bunifuCustomLabel_Loading" xml:space="preserve">
+    <value>Đang tải</value>
+  </data>
+  <data name="bunifuCustomLabel_Location" xml:space="preserve">
+    <value>Vị trí :</value>
+  </data>
+  <data name="bunifuCustomLabel_Membership" xml:space="preserve">
+    <value>Ngày VIP :</value>
+  </data>
+  <data name="bunifuCustomLabel_Monday" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="bunifuCustomLabel_Name" xml:space="preserve">
+    <value>Tên :</value>
+  </data>
+  <data name="bunifuCustomLabel_Note" xml:space="preserve">
+    <value>Ghi chú :</value>
+  </data>
+  <data name="bunifuCustomLabel_Notes" xml:space="preserve">
+    <value>Ghi chú :</value>
+  </data>
+  <data name="bunifuCustomLabel_Occupation" xml:space="preserve">
+    <value>Công việc :</value>
+  </data>
+  <data name="bunifuCustomLabel_OldSlip" xml:space="preserve">
+    <value>Hóa đơn cũ :</value>
+  </data>
+  <data name="bunifuCustomLabel_Password" xml:space="preserve">
+    <value>Mật khẩu :</value>
+  </data>
+  <data name="bunifuCustomLabel_PhoneNumber" xml:space="preserve">
+    <value>Số ĐT :</value>
+  </data>
+  <data name="bunifuCustomLabel_PresentPosition" xml:space="preserve">
+    <value>Vị trí :</value>
+  </data>
+  <data name="bunifuCustomLabel_Price" xml:space="preserve">
+    <value>Giá :</value>
+  </data>
+  <data name="bunifuCustomLabel_Priority" xml:space="preserve">
+    <value>Thứ tự :</value>
+  </data>
+  <data name="bunifuCustomLabel_Producer" xml:space="preserve">
+    <value>Nhà SX :</value>
+  </data>
+  <data name="bunifuCustomLabel_PulishDate" xml:space="preserve">
+    <value>Ngày PH :</value>
+  </data>
+  <data name="bunifuCustomLabel_Pulisher" xml:space="preserve">
+    <value>Nhà PH :</value>
+  </data>
+  <data name="bunifuCustomLabel_Quantity" xml:space="preserve">
+    <value>Số lượng :</value>
+  </data>
+  <data name="bunifuCustomLabel_Saturday" xml:space="preserve">
+    <value>Thứ bảy</value>
+  </data>
+  <data name="bunifuCustomLabel_StaffID" xml:space="preserve">
+    <value>Mã NV :</value>
+  </data>
+  <data name="bunifuCustomLabel_Status" xml:space="preserve">
+    <value>Tình trạng :</value>
+  </data>
+  <data name="bunifuCustomLabel_Sunday" xml:space="preserve">
+    <value>Chủ nhật</value>
+  </data>
+  <data name="bunifuCustomLabel_Thusday" xml:space="preserve">
+    <value>Thứ năm</value>
+  </data>
+  <data name="bunifuCustomLabel_Title" xml:space="preserve">
+    <value>Tên :</value>
+  </data>
+  <data name="bunifuCustomLabel_TotalPayment" xml:space="preserve">
+    <value>Tổng tiền :</value>
+  </data>
+  <data name="bunifuCustomLabel_TotalWorkingHours" xml:space="preserve">
+    <value>Số giờ làm :</value>
+  </data>
+  <data name="bunifuCustomLabel_Tuesday" xml:space="preserve">
+    <value>Thứ ba</value>
+  </data>
+  <data name="bunifuCustomLabel_Type" xml:space="preserve">
+    <value>Loại :</value>
+  </data>
+  <data name="bunifuCustomLabel_Username" xml:space="preserve">
+    <value>Tên TK :</value>
+  </data>
+  <data name="bunifuCustomLabel_VipID" xml:space="preserve">
+    <value>Mã VIP :</value>
+  </data>
+  <data name="bunifuCustomLabel_Voucher" xml:space="preserve">
+    <value>Phiếu giảm giá :</value>
+  </data>
+  <data name="bunifuCustomLabel_VoucherName" xml:space="preserve">
+    <value>Tên :</value>
+  </data>
+  <data name="bunifuCustomLabel_Wednesday" xml:space="preserve">
+    <value>Thứ tư :</value>
+  </data>
+  <data name="bunifuFlatButton_BackToBookFeature" xml:space="preserve">
+    <value>Trở lại</value>
+  </data>
+  <data name="bunifuFlatButton_CreateOrder" xml:space="preserve">
+    <value>Đặt hàng</value>
+  </data>
+  <data name="bunifuFlatButton_CreateSchedule" xml:space="preserve">
+    <value>Tạo lịch</value>
+  </data>
+  <data name="bunifuFlatButton_CreateVouchers" xml:space="preserve">
+    <value>Tạo phiếu giảm giá</value>
+  </data>
+  <data name="bunifuFlatButton_GenerateReport" xml:space="preserve">
+    <value>Tạo báo cáo</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_Book" xml:space="preserve">
+    <value>Sách</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_Contact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_Menu" xml:space="preserve">
+    <value>Thực đơn</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_Order" xml:space="preserve">
+    <value>Gọi món</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_Staff" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_Stock" xml:space="preserve">
+    <value>Kho</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_TransactionHistory" xml:space="preserve">
+    <value>Lịch sử GD</value>
+  </data>
+  <data name="bunifuFlatButton_OpenFeature_VIP" xml:space="preserve">
+    <value>Khách VIP</value>
+  </data>
+  <data name="bunifuFlatButton_ViewSchedule" xml:space="preserve">
+    <value>Xem lịch</value>
+  </data>
+  <data name="bunifuFlatButton_ViewWishlist" xml:space="preserve">
+    <value>Xem Wishlist</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchAvailableItems" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchBook" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchMenu" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchOrder" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchSelectedItems" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchStaff" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchStock" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchTranasctionHistory" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchVIP" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuMetroTextbox_SearchWishlist" xml:space="preserve">
+    <value>Nhập từ khóa...</value>
+  </data>
+  <data name="bunifuThinButton_LogOut" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="bunifuThinButton_SaveChanges" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="bunifuTileButton_AddBook" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="bunifuTileButton_AddMenuItem" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="bunifuTileButton_AddStaff" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="bunifuTileButton_AddStockItem" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="bunifuTileButton_AddToSelectedList" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="bunifuTileButton_AddVIP" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="bunifuTileButton_AddWishlistItem" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="bunifuTileButton_CancelOrder" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="bunifuTileButton_Confirm" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="bunifuTileButton_CreateOrder" xml:space="preserve">
+    <value>Tạo</value>
+  </data>
+  <data name="bunifuTileButton_CreateStockOrder" xml:space="preserve">
+    <value>Xác nhận hóa đơn</value>
+  </data>
+  <data name="bunifuTileButton_CreateVouchers" xml:space="preserve">
+    <value>Tạo phiếu giảm giá</value>
+  </data>
+  <data name="bunifuTileButton_DeleteBook" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="bunifuTileButton_DeleteMenuItem" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="bunifuTileButton_DeleteWishlistItem" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="bunifuTileButton_NextWeek" xml:space="preserve">
+    <value>Kế tiếp</value>
+  </data>
+  <data name="bunifuTileButton_PreviousWeek" xml:space="preserve">
+    <value>Trước đó</value>
+  </data>
+  <data name="bunifuTileButton_RemoveToSelectedList" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="bunifuTileButton_Search" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="bunifuTileButton_UpdateBook" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="bunifuTileButton_UpdateMenuItem" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="bunifuTileButton_UpdateOrder" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="bunifuTileButton_UpdateStaff" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="bunifuTileButton_UpdateStockItem" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="bunifuTileButton_UpdateVIP" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="bunifuTileButton_UpdateWishlistItem" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="groupBox_ListAvailableItems" xml:space="preserve">
+    <value>Hiện có</value>
+  </data>
+  <data name="groupBox_PersonalINfo" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="groupBox_SelectedItems" xml:space="preserve">
+    <value>Đã chọn</value>
+  </data>
+  <data name="groupBox_WorkingInfo" xml:space="preserve">
+    <value>Làm việc</value>
+  </data>
+  <data name="Header_AdvanceSearch" xml:space="preserve">
+    <value>Tìm kiếm nâng cao</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_BookDetail" xml:space="preserve">
+    <value>Thông tin sách</value>
+    <comment>Header of book form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_CreateVoucher" xml:space="preserve">
+    <value>Tạo phiếu giảm giá</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_DishDrinkDetail" xml:space="preserve">
+    <value>Thông tin món ăn / thức uống</value>
+    <comment>Header of dish/drink form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_ItemDetail" xml:space="preserve">
+    <value>Thông tin vật dụng</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_OrderDetail" xml:space="preserve">
+    <value>Thông tin hóa đơn</value>
+    <comment>Header of book form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_Schedule" xml:space="preserve">
+    <value>Lịch</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_SelectBook" xml:space="preserve">
+    <value>Chọn sách</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_SelectDishDrink" xml:space="preserve">
+    <value>Chọn món ăn / nước uống</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_SelectIngredient" xml:space="preserve">
+    <value>Chọn nguyên liệu</value>
+  </data>
+  <data name="Header_SelectStaff" xml:space="preserve">
+    <value>Chọn nhân viên</value>
+  </data>
+  <data name="Header_SelectStockItem" xml:space="preserve">
+    <value>Chọn vật phẩm</value>
+  </data>
+  <data name="Header_StaffDetail" xml:space="preserve">
+    <value>Thông tin nhân viên</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_StockOrderDetail" xml:space="preserve">
+    <value>Thông tin đơn hàng</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="Header_VIPDetail" xml:space="preserve">
+    <value>Thông tin khách VIP</value>
+    <comment>Header of schedule form. Using tag to get this value</comment>
+  </data>
+  <data name="textBox_ShowUsername" xml:space="preserve">
+    <value>Tên đăng nhập :</value>
+  </data>
+</root>

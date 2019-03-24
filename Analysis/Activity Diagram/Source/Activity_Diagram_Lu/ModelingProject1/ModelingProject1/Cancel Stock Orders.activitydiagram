@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="c740c30f-2fe4-4f25-9948-fb5fdce45c29" name="Cancel Stock Orders" linkedPackageId="cb10d071-ea22-420b-916f-56b08422d991" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="068967c0-8dc2-4b00-9e81-e21dd9f42fc8" name="Cancel Stock Orders" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="5cd594a9-3469-41cf-9ab9-e4467310c2f7" />
+        <nodes>
+          <activityFinalNode Id="1cc0c632-e979-48c7-964b-4bb417c5fc63" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="926d40dc-6118-453d-9ae9-2bc92de2cb81" />
+          </activityFinalNode>
+          <opaqueAction Id="05e93214-0e78-4327-bb20-38c725310d64" name="Click &quot;Delete&quot;" isLeaf="false">
+            <elementDefinition Id="2ad0fb1a-9795-435c-80bf-efc53732f0f9" />
+            <flowNodeTargets>
+              <controlFlow Id="1f1ad1d6-7caa-4452-9905-8ada5261ff3a" isLeaf="false">
+                <opaqueActionMoniker Id="aab81174-6134-4c0f-a6c0-930eefcd7b3c" LastKnownName="Display warning message" />
+                <elementDefinition Id="50f013b3-79d7-4882-b31c-f72a93af33ec" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ba814147-d190-40b1-be96-0ea2803f9497" name="Click Ok" isLeaf="false">
+            <elementDefinition Id="9b91b79a-f964-4311-a9cf-5bef547b0643" />
+            <flowNodeTargets>
+              <controlFlow Id="d1e7dad4-6caf-4096-bc56-e7e983970ee1" isLeaf="false">
+                <opaqueActionMoniker Id="b8a969c5-7955-4072-9afb-c03169df3f39" LastKnownName="Cancel stock order immediately" />
+                <elementDefinition Id="e4b7a47e-112a-42fc-9c6d-33e640f8510b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="ad7211f6-e465-4da9-a16f-73c8e6fc3d69" name="Decision1" isLeaf="false">
+            <elementDefinition Id="a8c36766-371e-4a1a-8bd6-c902514ab01e" />
+            <flowNodeTargets>
+              <controlFlow Id="65a8bbfa-b5b3-4e5f-8ce2-2013eb21ca11" isLeaf="false">
+                <opaqueActionMoniker Id="ba814147-d190-40b1-be96-0ea2803f9497" LastKnownName="Click Ok" />
+                <elementDefinition Id="004fc912-7be8-4a95-9d84-2aeaa89daacb" />
+              </controlFlow>
+              <controlFlow Id="599ab361-9a14-48a8-bc3e-7a45e948dba2" isLeaf="false">
+                <opaqueActionMoniker Id="59b88cc0-df14-4757-ac80-2714ff3fb256" LastKnownName="Click Cancel" />
+                <elementDefinition Id="5876b64f-bc0d-4fd2-acd3-c7cd5ce9dfc0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="59b88cc0-df14-4757-ac80-2714ff3fb256" name="Click Cancel" isLeaf="false">
+            <elementDefinition Id="5a3e5fd0-4ce2-4f23-ae2f-7f6da65effa4" />
+            <flowNodeTargets>
+              <controlFlow Id="2c524062-9bfd-4e67-a38e-d5a1085c079f" isLeaf="false">
+                <activityFinalNodeMoniker Id="1cc0c632-e979-48c7-964b-4bb417c5fc63" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="951c6854-a2f4-4400-80f0-eedaa65a220c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b8a969c5-7955-4072-9afb-c03169df3f39" name="Cancel stock order immediately" isLeaf="false">
+            <elementDefinition Id="e884779f-1281-44f6-88af-aeb77b99c27a" />
+            <flowNodeTargets>
+              <controlFlow Id="2296cd2a-12af-4ef4-b2c0-63c1e37ac247" isLeaf="false">
+                <activityFinalNodeMoniker Id="1cc0c632-e979-48c7-964b-4bb417c5fc63" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="c07ebc83-02ca-42b5-ad8d-a8b024ac6609" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="0a23280c-4b62-40ec-a456-bd0e20d222ee" name="Warehouse Manager" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="5ae50519-35e6-4073-9b5d-dc9e9570e02c" />
+            <upperBound>
+              <literalInteger Id="9e19e5dd-35fb-4794-879d-6e770e2b44a3" name="2147483647" value="2147483647">
+                <elementDefinition Id="2610e75d-4677-4b4a-a792-f8a874cf18e7" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="8028c9e5-ad1f-4b5d-b38b-1a395139e265" name="System" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="cef2c229-b7f8-47b8-8701-6350f9d5f7b2" />
+            <upperBound>
+              <literalInteger Id="1cd457e8-82c4-47f9-a00e-615a0d82248d" name="2147483647" value="2147483647">
+                <elementDefinition Id="ed929910-d6d3-482a-9730-ca13c3d9d495" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="6e890ef2-b69a-403d-aa80-196a54010626" name="Initial11" isLeaf="false">
+            <elementDefinition Id="45a22c70-91fd-4668-b270-5f94e1ecddcf" />
+            <flowNodeTargets>
+              <controlFlow Id="27e4a26c-5eea-4b0c-87ef-d62e7622c042" isLeaf="false">
+                <opaqueActionMoniker Id="15cb1795-7e4d-4077-99f1-4e2733e6ca61" LastKnownName="Click &quot;Transaction&quot; tab on the main menu" />
+                <elementDefinition Id="5ac85d9c-a504-4ab3-99e5-8892a1cfb02d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="15cb1795-7e4d-4077-99f1-4e2733e6ca61" name="Click &quot;Transaction&quot; tab on the main menu" isLeaf="false">
+            <elementDefinition Id="d3f60f70-6b04-4dda-9278-a79ad54c561e" />
+            <flowNodeTargets>
+              <controlFlow Id="d36f60cf-9726-4c6d-b97c-f3a943d7b1ae" isLeaf="false">
+                <opaqueActionMoniker Id="d121221a-3725-448e-9ea2-a126b294d201" LastKnownName="Display transaction history" />
+                <elementDefinition Id="5a22325a-60a5-46e8-809a-6c0a791d85aa" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d121221a-3725-448e-9ea2-a126b294d201" name="Display transaction history" isLeaf="false">
+            <elementDefinition Id="e63d5600-a24f-4c5f-b5b1-5f346e132476" />
+            <flowNodeTargets>
+              <controlFlow Id="d221d447-99fb-49bc-ad10-b8ea0395e47f" isLeaf="false">
+                <opaqueActionMoniker Id="d54c3fbf-4b55-443b-ae09-63b125979203" LastKnownName="Find &amp; Choose a transaction history" />
+                <elementDefinition Id="43cd0b50-4d28-43be-a0ef-980687a5ef5d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d54c3fbf-4b55-443b-ae09-63b125979203" name="Find &amp; Choose a transaction history" isLeaf="false">
+            <elementDefinition Id="61cacb8e-0c5b-4a58-af6b-56956c2e40d2" />
+            <flowNodeTargets>
+              <controlFlow Id="c8136a54-c45d-4ddf-b441-30ea08afb585" isLeaf="false">
+                <opaqueActionMoniker Id="05e93214-0e78-4327-bb20-38c725310d64" LastKnownName="Click &quot;Delete&quot;" />
+                <elementDefinition Id="5cb0346c-c0b6-4d3d-9c04-60242ace1432" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="aab81174-6134-4c0f-a6c0-930eefcd7b3c" name="Display warning message" isLeaf="false">
+            <elementDefinition Id="0b5eab0c-8e29-42c7-94a5-58d2e3cfca5f" />
+            <flowNodeTargets>
+              <controlFlow Id="ababf4e8-7b4b-481e-b212-05ed37a5038a" isLeaf="false">
+                <decisionNodeMoniker Id="ad7211f6-e465-4da9-a16f-73c8e6fc3d69" LastKnownName="Decision1" />
+                <elementDefinition Id="1818142c-a9d5-43be-8cb6-4b2be039202d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="cb10d071-ea22-420b-916f-56b08422d991" name="ModelingProject1">
+    <elementDefinition Id="5c797800-1ba2-47f9-9232-44cf029a44c0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a50697df-fe3c-4ae6-9bb6-d14fda80816e">
+        <profileInstance Id="58efbc31-9907-4059-84cd-bdecd1a9deb9" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d7ea87ad-b8f0-4b87-9c79-18de3cbd057f">
+        <profileInstance Id="d1516ba3-2663-4bff-8464-3e9eae331c9e" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

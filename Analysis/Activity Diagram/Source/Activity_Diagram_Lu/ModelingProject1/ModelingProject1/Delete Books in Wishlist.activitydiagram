@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="eafb3ae2-86ae-465a-86db-ad9c22c5a76c" name="Delete Books in Wishlist" linkedPackageId="4b3f1a93-dc32-40cf-a3e1-e083c620aaa3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="6400ece9-131d-442a-b7de-4be78865326e" name="Delete Books in Wishlist" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="68fd674c-a777-4192-b3d5-dc22b6c679e6" />
+        <nodes>
+          <activityFinalNode Id="f6db00fc-9aeb-45ae-90fe-495e7449b986" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="fc322ab1-1e50-46d6-8c02-3e3cffe5ccdf" />
+          </activityFinalNode>
+          <opaqueAction Id="59ec7b62-fa6e-4ae3-92b4-cb0427c8df50" name="Chooses a book in wishlist" isLeaf="false">
+            <elementDefinition Id="e49e3d35-1cd1-413d-834d-7afd808c34c5" />
+            <flowNodeTargets>
+              <controlFlow Id="9d2878bc-7f73-4d2b-a6b6-4e8e44d66735" isLeaf="false">
+                <opaqueActionMoniker Id="62c3b20d-35df-46cd-973c-e84674eb2170" LastKnownName="Press delete the book from the wishlist" />
+                <elementDefinition Id="293a397a-06fe-400d-b813-3d9a3740ea99" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="62c3b20d-35df-46cd-973c-e84674eb2170" name="Press delete the book from the wishlist" isLeaf="false">
+            <elementDefinition Id="8841a585-e73c-47d4-866c-7ff1a48ee1ab" />
+            <flowNodeTargets>
+              <controlFlow Id="17c0cfbc-0850-425f-a6bd-ade914fd6402" isLeaf="false">
+                <opaqueActionMoniker Id="a9a61801-1186-44e3-80b2-1ab33b3a3ee6" LastKnownName="System display confirm message" />
+                <elementDefinition Id="0d6b07b3-46fb-4df0-84c2-cd8468b6c76d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="75f5f12f-3db8-4e3d-abfb-7a191ab1ad8e" name="System delete the book" isLeaf="false">
+            <elementDefinition Id="7739ec76-88ce-4b58-86f7-2f2fdb99887b" />
+            <flowNodeTargets>
+              <controlFlow Id="443b5236-2e8d-43dd-af85-fb99cde4e72a" isLeaf="false">
+                <activityFinalNodeMoniker Id="f6db00fc-9aeb-45ae-90fe-495e7449b986" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="7d664a6e-3e1f-4bd1-90cc-43446317dbeb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="256450b7-fe73-47ee-a964-011549cb1132" name="Decision1" isLeaf="false">
+            <elementDefinition Id="70861eeb-5518-48bd-b533-b2534c1dcc77" />
+            <flowNodeTargets>
+              <controlFlow Id="7674c3e4-bb98-48bd-b6a0-b1a424b25e7c" guard="Yes" isLeaf="false">
+                <opaqueActionMoniker Id="75f5f12f-3db8-4e3d-abfb-7a191ab1ad8e" LastKnownName="System delete the book" />
+                <elementDefinition Id="5e23679a-83ed-45ae-ae20-b732f3ccf097" />
+              </controlFlow>
+              <controlFlow Id="2cf51bc1-6ba6-4db6-b8cb-c891292a78f1" guard="No" isLeaf="false">
+                <activityFinalNodeMoniker Id="f6db00fc-9aeb-45ae-90fe-495e7449b986" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="c5656cce-4ecd-446c-91f7-47668a61fd45" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="a9a61801-1186-44e3-80b2-1ab33b3a3ee6" name="System display confirm message" isLeaf="false">
+            <elementDefinition Id="4523c7ac-526e-4329-a3d7-c6de7bafda5d" />
+            <flowNodeTargets>
+              <controlFlow Id="18d86a91-1908-425d-87b2-f7572102ba72" isLeaf="false">
+                <decisionNodeMoniker Id="256450b7-fe73-47ee-a964-011549cb1132" LastKnownName="Decision1" />
+                <elementDefinition Id="05037221-a2c7-4eda-8fe8-42f1ecb4cd45" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="04502405-6e26-4af3-9bb5-f464665ba617" name="Click &quot;View book wishlist&quot;" isLeaf="false">
+            <elementDefinition Id="a9e1cebc-d1b1-4148-b819-d2d1749f498a" />
+            <flowNodeTargets>
+              <controlFlow Id="a72b7bd3-51aa-45aa-92ac-81248701b62f" isLeaf="false">
+                <opaqueActionMoniker Id="d631754c-55a9-4fdb-996a-8715ba2dae65" LastKnownName="Display book wishlist" />
+                <elementDefinition Id="5c048634-bf42-489b-b65e-5e0a30912f2c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="86c27526-f8c4-4a39-8d0b-6348349de5e6" name="Cashier" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="46797b4c-36da-4772-9222-db08205fc7ed" />
+            <upperBound>
+              <literalInteger Id="398b7470-9019-46b2-8ceb-0a4ce1672eca" name="2147483647" value="2147483647">
+                <elementDefinition Id="b9a4306f-359d-49eb-9eb1-7a86fe94556b" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="498bb5bc-cc74-43d2-89ad-5864991c493c" name="System" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="cf0768af-844f-4256-bf1a-a1cc1ef1f62a" />
+            <upperBound>
+              <literalInteger Id="d3936e50-50fd-49f7-a3e7-ff4b3865bf86" name="2147483647" value="2147483647">
+                <elementDefinition Id="7847f7a6-58c3-482e-ad1c-51225613ff16" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="25153372-123f-4a5d-8fb5-e4a8195630b3" name="Initial11" isLeaf="false">
+            <elementDefinition Id="1960d52b-12ce-49c9-bc75-30b5b6031b29" />
+            <flowNodeTargets>
+              <controlFlow Id="f97812c8-9fd6-4ae2-a9ad-a3a0886f35fe" isLeaf="false">
+                <opaqueActionMoniker Id="d34e180e-0b36-4641-912d-4a73aadb1c47" LastKnownName="Click &quot;Book&quot; tab on the main menu" />
+                <elementDefinition Id="44e38150-efb8-4a04-be70-1fa34d5a1210" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="d34e180e-0b36-4641-912d-4a73aadb1c47" name="Click &quot;Book&quot; tab on the main menu" isLeaf="false">
+            <elementDefinition Id="e12cf1b5-70d5-46c0-b137-712bf4e633aa" />
+            <flowNodeTargets>
+              <controlFlow Id="07d416bb-b8ba-48c8-a9cd-c5ece170f274" isLeaf="false">
+                <opaqueActionMoniker Id="fdaf3b97-5bbe-42d4-98f7-2646041093b1" LastKnownName="Display book list" />
+                <elementDefinition Id="145d1665-d6ca-4f64-92ec-3efc1faaa144" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="fdaf3b97-5bbe-42d4-98f7-2646041093b1" name="Display book list" isLeaf="false">
+            <elementDefinition Id="8c49f439-67c6-4be7-bc53-bd37581d91fb" />
+            <flowNodeTargets>
+              <controlFlow Id="be17e0a9-7fea-43c7-af97-6baf30dc8253" isLeaf="false">
+                <opaqueActionMoniker Id="04502405-6e26-4af3-9bb5-f464665ba617" LastKnownName="Click &quot;View book wishlist&quot;" />
+                <elementDefinition Id="a49cd62f-9328-421c-9611-b04ee904686f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d631754c-55a9-4fdb-996a-8715ba2dae65" name="Display book wishlist" isLeaf="false">
+            <elementDefinition Id="84cda571-e62a-4cc6-a991-328349a61bab" />
+            <flowNodeTargets>
+              <controlFlow Id="3d181b3e-f5ed-4ca7-a94b-e86b4e214ab7" isLeaf="false">
+                <opaqueActionMoniker Id="59ec7b62-fa6e-4ae3-92b4-cb0427c8df50" LastKnownName="Chooses a book in wishlist" />
+                <elementDefinition Id="66b2f19b-28c8-4182-a5c4-8ff1d1e7d98a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="4b3f1a93-dc32-40cf-a3e1-e083c620aaa3" name="ModelingProject1">
+    <elementDefinition Id="5c797800-1ba2-47f9-9232-44cf029a44c0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="df772563-c2c0-409d-bf6d-71062afe1252">
+        <profileInstance Id="f27015d1-a394-484b-b82d-581c97f7011d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="0b16e38a-f789-43b8-ac8f-d6b4be018b83">
+        <profileInstance Id="5ffaf9b2-1a89-4126-a487-b08d311c2199" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

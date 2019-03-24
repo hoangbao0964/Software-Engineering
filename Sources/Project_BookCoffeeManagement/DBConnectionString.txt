@@ -1,0 +1,3 @@
+Server=tcp:book-coffee-server.database.windows.net,1433;Initial Catalog=Book_Coffee_DB;Persist Security Info=False;User ID=<id_of_user>;Password=<user_password>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+<id_of_user>=bcmanager
+<user_password>=Newbee2014

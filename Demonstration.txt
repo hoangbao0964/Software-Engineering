@@ -1,0 +1,65 @@
+We have move all demonstration videos to Google Drive.
+You can access all videos within the link: https://drive.google.com/open?id=0BwaoSG2BOU7ZazJlUnVFY29XLTQ
+
+Demo features in videos:
+	Login with correct username - password
+	Order
+		View Order
+		Create an order
+			Dish/Drink order
+				Items's quantity automatically decrease
+			Borrow Book order
+				Borrow book status become "Unavailable" (can't be reborrowed)
+			Return Book order
+				Return book status become "Available" 
+		Update an order status (processing -> complete)
+		Cancel an order
+	 	Search for an order (by orderID, priority number)
+	Menu
+		View menu item
+		Create a menu item
+		Update a menu item
+		Delete a menu item
+		Search menu item (by name & by price <= x)
+	Book Wishlist
+		View book wishlist
+		Add book wishlist
+		Search book wishlist
+		Update book wishlist
+		Delete book wishlist
+		Search book (by name, price <= x & author)
+	Book
+		View book
+		Add book
+		Search book
+		Update book
+		Delete book
+		Search book (by id, name, price <= x & author)
+	VIP
+		View VIP
+		Add VIP
+		Update VIP
+			Vip Discount in order
+			Vip become expire when day left = 0 (can't demo)
+		Search VIP (by iD, name, civilianID)
+	Staff
+		View Staff
+		Add Staff
+		Update Staff
+		Search staff (by id & name)
+	Schedule
+		View schedule
+		Create/Update schedule
+			Staff working hours automatically increase/decrease
+	Stock
+		View an ingredient
+		Add an ingredient	
+		Update an ingredient
+		Create a stock order to update ingredient quantities
+		Search items(by name & producer)
+	Transaction history
+		View old order information
+		Search (by orderID)
+		Generate report
+	Change language
+	Change theme

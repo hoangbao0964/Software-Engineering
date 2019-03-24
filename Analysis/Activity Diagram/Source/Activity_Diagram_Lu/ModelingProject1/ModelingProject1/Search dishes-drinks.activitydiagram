@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b8a63d2b-770c-483b-a67c-45084d444a68" name="Search dishes-drinks" linkedPackageId="641c317d-c7d4-4737-87c2-c1c902b016f0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="97daf743-b58c-454b-acb0-708097884d7a" name="Search dishes-drinks" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="4b1aeda1-1b27-4f4c-8940-4f4265220028" />
+        <nodes>
+          <activityFinalNode Id="b6924591-6348-44c0-93b4-4127f21737db" name="ActivityFinal11" isLeaf="false">
+            <elementDefinition Id="5bc1574f-cf2e-4c46-b9c6-a5204c0a4b00" />
+          </activityFinalNode>
+          <opaqueAction Id="c1ece3c7-6a2c-458e-ab9c-9b8c4828c9d6" name="Display result" isLeaf="false">
+            <elementDefinition Id="6aed19d4-c741-41dc-90a0-5ccef7771e5f" />
+            <flowNodeTargets>
+              <controlFlow Id="0e69d882-1843-485e-9e16-83ff4e82d598" isLeaf="false">
+                <activityFinalNodeMoniker Id="b6924591-6348-44c0-93b4-4127f21737db" LastKnownName="ActivityFinal11" />
+                <elementDefinition Id="ab0770fd-93b3-4085-8152-17a3cbf9b595" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="6ce8e26b-3b65-471a-99ff-08a9ffd1c0e4" name="Staff" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="c9aa8791-0b6b-4e3b-9d73-304c04213c7a" />
+            <upperBound>
+              <literalInteger Id="83d71d05-ba60-4aeb-a4ee-139125ce7ea9" name="2147483647" value="2147483647">
+                <elementDefinition Id="9066ca04-4f10-4066-9c89-834e07f17eab" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="53156067-5d90-4965-bb91-1ebfd27ee495" name="System" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="235e0d52-d5a3-4e4d-b610-66f67c7e6366" />
+            <upperBound>
+              <literalInteger Id="48effed1-0c09-4fce-a144-ee983770c76a" name="2147483647" value="2147483647">
+                <elementDefinition Id="503d61c0-6965-471a-9270-5d27ff2ede51" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="1daf1dd7-4a0f-42c7-b020-db04c6f99c8f" name="Initial11" isLeaf="false">
+            <elementDefinition Id="a9996cd3-dbd5-4b16-8e4a-d65d80a5ad89" />
+            <flowNodeTargets>
+              <controlFlow Id="0b856f1f-0eda-43dc-92bb-dad7022d77ef" isLeaf="false">
+                <opaqueActionMoniker Id="dc2b7212-4cc9-403c-a9f7-e7bafe88f521" LastKnownName="Click &quot;Menu&quot; tab on the main menu" />
+                <elementDefinition Id="0c6d818b-1b27-405d-a039-b652159298da" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="dc2b7212-4cc9-403c-a9f7-e7bafe88f521" name="Click &quot;Menu&quot; tab on the main menu" isLeaf="false">
+            <elementDefinition Id="429f3532-5bfb-412d-985e-f8448367e185" />
+            <flowNodeTargets>
+              <controlFlow Id="4ccebed7-6955-44fe-9f9f-413047139cc0" isLeaf="false">
+                <opaqueActionMoniker Id="8574eb02-9a48-45a4-bd16-294345c76ae3" LastKnownName="Display menu list" />
+                <elementDefinition Id="218d8ddc-e7d2-4fa0-ad0b-ef66222acf0b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="8574eb02-9a48-45a4-bd16-294345c76ae3" name="Display menu list" isLeaf="false">
+            <elementDefinition Id="2690f8e2-e65e-4522-b4e4-b807d314f71d" />
+            <flowNodeTargets>
+              <controlFlow Id="4b6f1824-26b1-4fc1-8b98-c8dfec2d86ec" isLeaf="false">
+                <opaqueActionMoniker Id="dd9030f5-2b18-4032-b2bb-a1331011f7fc" LastKnownName="Input name in search box" />
+                <elementDefinition Id="64b4bbba-2ed0-4390-961f-c894a2d03743" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="dd9030f5-2b18-4032-b2bb-a1331011f7fc" name="Input name in search box" isLeaf="false">
+            <elementDefinition Id="6c76998f-5eed-46b2-8f84-099ada41bab5" />
+            <flowNodeTargets>
+              <controlFlow Id="7accceff-be0e-4cf8-b15f-745b89bf617d" isLeaf="false">
+                <opaqueActionMoniker Id="e37504a7-c386-40f2-9a1a-1c05f5100939" LastKnownName="Press search icon" />
+                <elementDefinition Id="3b2d7c5c-b560-4a6e-98a6-f9316a6a22bd" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e37504a7-c386-40f2-9a1a-1c05f5100939" name="Press search icon" isLeaf="false">
+            <elementDefinition Id="1677291c-bf0d-499c-921d-042e799923d2" />
+            <flowNodeTargets>
+              <controlFlow Id="99619382-316d-4d49-b153-bab4e338f0fb" isLeaf="false">
+                <opaqueActionMoniker Id="c1ece3c7-6a2c-458e-ab9c-9b8c4828c9d6" LastKnownName="Display result" />
+                <elementDefinition Id="8512ced8-c731-4443-ba08-2173806d3f90" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="641c317d-c7d4-4737-87c2-c1c902b016f0" name="ModelingProject1">
+    <elementDefinition Id="5c797800-1ba2-47f9-9232-44cf029a44c0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a5bc2cc1-477c-4b95-a4ae-7cff8dc7939e">
+        <profileInstance Id="fd9c6a2b-6b6d-4353-b50e-0a42a3d8f578" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="08cacbda-edf6-48f1-b5d4-04d570bf1c0f">
+        <profileInstance Id="2e4f1615-60f8-453a-b0d5-969980f9ea7e" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

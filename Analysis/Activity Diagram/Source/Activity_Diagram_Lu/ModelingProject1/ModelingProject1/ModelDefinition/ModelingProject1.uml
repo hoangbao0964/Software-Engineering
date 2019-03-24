@@ -1,0 +1,2310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="5c797800-1ba2-47f9-9232-44cf029a44c0"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <activity
+        Id="fd065e90-ca37-40d1-a6a2-83f0028f9f1a"
+        name="Add Books"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="1ee45406-a3fa-4f81-95bc-604578f0151d"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d5d7b9e1-d082-4520-9e60-7f31297521d5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c5e5689a-3557-4715-87a8-15d16d3293ca"
+                  LastKnownName="Click &quot;Book&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode
+            Id="164bfdfe-4ba3-4530-8125-2c03b0231526"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="2f99f8d7-7785-46f5-9b69-71ba58db6217"
+            name="Click &quot;Add Book&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b02dfdb1-7e5e-4f58-8611-bcee4e72880a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1d00da18-e9af-4140-bcd8-e21bab8f031a"
+                  LastKnownName="Add Information "
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1d00da18-e9af-4140-bcd8-e21bab8f031a"
+            name="Add Information "
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7e2d7940-026b-4cba-93d5-99ad58ee3bf4"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="fbaf2f24-04a5-45df-bbbd-0cbf802c954d"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9c8b30b2-92b5-4587-a41d-c1061e070f8c"
+            name="Click Ok"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1ee20dc3-48d4-4fdb-bec1-2b58f054f45d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c019ea4c-2111-4df5-b32d-839cc7defc94"
+                  LastKnownName="Save Information into DB"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="fbaf2f24-04a5-45df-bbbd-0cbf802c954d"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="82f2876a-9d91-4fe8-bb16-17a17ee36a3e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9c8b30b2-92b5-4587-a41d-c1061e070f8c"
+                  LastKnownName="Click Ok"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="3034919d-81e4-4db9-9c27-bd333c3119f1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="812bc86f-d8ea-4c15-b98a-113b82cd6a66"
+                  LastKnownName="Click Cancel"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="812bc86f-d8ea-4c15-b98a-113b82cd6a66"
+            name="Click Cancel"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="66b38255-4e7c-4018-8b2a-a3b055622370"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="164bfdfe-4ba3-4530-8125-2c03b0231526"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c019ea4c-2111-4df5-b32d-839cc7defc94"
+            name="Save Information into DB"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b49d3e73-9ec8-4506-813f-35e9cf15f268"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="164bfdfe-4ba3-4530-8125-2c03b0231526"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="3887ff42-c89d-4db5-8f1a-873bd7dda04b"
+            name="Warehouse Manager"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="45aa4759-37fd-4008-8b56-4dacfd16da62"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="d3461500-8dc4-42c1-87c4-c39b00dce98c"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="301c24c7-510f-478b-92cc-76e91ab2a85b"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <opaqueAction
+            Id="c5e5689a-3557-4715-87a8-15d16d3293ca"
+            name="Click &quot;Book&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5364d4bc-50bf-4a9b-a4b2-4db407346703"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="224ec410-2e32-43bd-873f-c959157a8dd8"
+                  LastKnownName="Display list of books"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="224ec410-2e32-43bd-873f-c959157a8dd8"
+            name="Display list of books"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6859839a-0786-4936-a3e3-e8ef87d9d641"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="2f99f8d7-7785-46f5-9b69-71ba58db6217"
+                  LastKnownName="Click &quot;Add Book&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="7ccfa11f-45ad-406c-bb30-8e0441c5ea5a"
+        name="add ingredient"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="19d92c41-b5c4-4270-8437-587a158a0954"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="90be547f-6b71-4467-91d2-5629f8e42a61"
+            name="Click &quot;Add Ingredient&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f403ebf0-0a40-49e8-92a3-92b42e5d9c92"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="da19816a-d776-4ab0-836a-6682c36bf5c6"
+                  LastKnownName="Display information fields"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="0558bbed-110f-4c95-ac68-b8b7f90beb27"
+            name="Add Information "
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dc39673d-60f3-43f9-baa4-71de028f31fb"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="d5a89aa4-546d-4d12-992c-89be64c099b4"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="372c018d-ca70-4634-b4c7-9ddde09fc0a4"
+            name="Click Ok"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="55c8d4df-62ab-4b78-96a3-aad2c48bef95"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="85fcaf67-76ac-47fb-abbe-02449921ec6c"
+                  LastKnownName="Save Information into DB"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="d5a89aa4-546d-4d12-992c-89be64c099b4"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="96328a90-36cc-4cb3-aa17-b2288d46e2e7"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ce1d9133-a8e3-4f73-a419-a87bbda878c7"
+                  LastKnownName="Click Cancel"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="a1df27cd-0f55-41cd-8733-5d71853b66f1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="372c018d-ca70-4634-b4c7-9ddde09fc0a4"
+                  LastKnownName="Click Ok"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="ce1d9133-a8e3-4f73-a419-a87bbda878c7"
+            name="Click Cancel"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="396b0634-3bfc-4cea-91c9-14d485c83011"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="19d92c41-b5c4-4270-8437-587a158a0954"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="85fcaf67-76ac-47fb-abbe-02449921ec6c"
+            name="Save Information into DB"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4892fb44-0994-4c1d-be01-dbe6b4e2d5ea"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="19d92c41-b5c4-4270-8437-587a158a0954"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="714127f0-dbbe-4245-8a26-858ee4dd81d7"
+            name="Warehouse Manager"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="7a1cdf42-1ced-4d92-a332-42cf18725502"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="7ac5531d-b552-456a-9362-cb03f4c1bd58"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="f53c61c8-11b6-43fe-9009-ccb683359540"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="b93858ea-95cf-4f4b-9589-3e3777963be9"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7d09e0c0-43f5-450d-9fcf-f5203208312f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="56da5cf5-a7d8-4e47-8765-51a231285426"
+                  LastKnownName="Click &quot;Stock&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="56da5cf5-a7d8-4e47-8765-51a231285426"
+            name="Click &quot;Stock&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f068b8f1-3474-4d62-a10f-68080d287c23"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="378f5fd8-181e-4318-a075-c46958581ed8"
+                  LastKnownName="Display list of materials"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="378f5fd8-181e-4318-a075-c46958581ed8"
+            name="Display list of materials"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1b1857bc-f0be-4ad9-a3d9-b901ec5a1d7c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="90be547f-6b71-4467-91d2-5629f8e42a61"
+                  LastKnownName="Click &quot;Add Ingredient&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="da19816a-d776-4ab0-836a-6682c36bf5c6"
+            name="Display information fields"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bece82fd-e71a-41c0-9a10-3f5f392a52e5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0558bbed-110f-4c95-ac68-b8b7f90beb27"
+                  LastKnownName="Add Information "
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="5cd594a9-3469-41cf-9ab9-e4467310c2f7"
+        name="Cancel Stock Orders"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="926d40dc-6118-453d-9ae9-2bc92de2cb81"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="2ad0fb1a-9795-435c-80bf-efc53732f0f9"
+            name="Click &quot;Delete&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="50f013b3-79d7-4882-b31c-f72a93af33ec"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0b5eab0c-8e29-42c7-94a5-58d2e3cfca5f"
+                  LastKnownName="Display warning message"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9b91b79a-f964-4311-a9cf-5bef547b0643"
+            name="Click Ok"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e4b7a47e-112a-42fc-9c6d-33e640f8510b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e884779f-1281-44f6-88af-aeb77b99c27a"
+                  LastKnownName="Cancel stock order immediately"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="a8c36766-371e-4a1a-8bd6-c902514ab01e"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="004fc912-7be8-4a95-9d84-2aeaa89daacb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9b91b79a-f964-4311-a9cf-5bef547b0643"
+                  LastKnownName="Click Ok"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="5876b64f-bc0d-4fd2-acd3-c7cd5ce9dfc0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5a3e5fd0-4ce2-4f23-ae2f-7f6da65effa4"
+                  LastKnownName="Click Cancel"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="5a3e5fd0-4ce2-4f23-ae2f-7f6da65effa4"
+            name="Click Cancel"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="951c6854-a2f4-4400-80f0-eedaa65a220c"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="926d40dc-6118-453d-9ae9-2bc92de2cb81"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="e884779f-1281-44f6-88af-aeb77b99c27a"
+            name="Cancel stock order immediately"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c07ebc83-02ca-42b5-ad8d-a8b024ac6609"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="926d40dc-6118-453d-9ae9-2bc92de2cb81"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="5ae50519-35e6-4073-9b5d-dc9e9570e02c"
+            name="Warehouse Manager"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="2610e75d-4677-4b4a-a792-f8a874cf18e7"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="cef2c229-b7f8-47b8-8701-6350f9d5f7b2"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="ed929910-d6d3-482a-9730-ca13c3d9d495"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="45a22c70-91fd-4668-b270-5f94e1ecddcf"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5ac85d9c-a504-4ab3-99e5-8892a1cfb02d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d3f60f70-6b04-4dda-9278-a79ad54c561e"
+                  LastKnownName="Click &quot;Transaction&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="d3f60f70-6b04-4dda-9278-a79ad54c561e"
+            name="Click &quot;Transaction&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5a22325a-60a5-46e8-809a-6c0a791d85aa"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e63d5600-a24f-4c5f-b5b1-5f346e132476"
+                  LastKnownName="Display transaction history"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="e63d5600-a24f-4c5f-b5b1-5f346e132476"
+            name="Display transaction history"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="43cd0b50-4d28-43be-a0ef-980687a5ef5d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="61cacb8e-0c5b-4a58-af6b-56956c2e40d2"
+                  LastKnownName="Find &amp; Choose a transaction history"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="61cacb8e-0c5b-4a58-af6b-56956c2e40d2"
+            name="Find &amp; Choose a transaction history"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5cb0346c-c0b6-4d3d-9c04-60242ace1432"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="2ad0fb1a-9795-435c-80bf-efc53732f0f9"
+                  LastKnownName="Click &quot;Delete&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="0b5eab0c-8e29-42c7-94a5-58d2e3cfca5f"
+            name="Display warning message"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1818142c-a9d5-43be-8cb6-4b2be039202d"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="a8c36766-371e-4a1a-8bd6-c902514ab01e"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="79e7b0f3-94cf-413b-98ae-c7f3d5df2405"
+        name="Create Book Order"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="55ddbd4f-2821-4720-b805-da1512168844"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="c35c3a61-44a0-4cef-9d1e-65bfe7f931a5"
+            name="Click &quot;Create book order&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e20ce823-2284-4e42-bd78-4835eee224b8"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="794e9704-976b-4d6f-9dbb-19a64b9a0a89"
+                  LastKnownName="Display input fields"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="cfc63b08-8846-4df5-b7dd-f971d39ed597"
+            name="Input Order Information "
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="00b45ba1-2f84-46b3-8b30-578563e8eaef"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="747b4f8e-c73d-4a81-a00e-3138d55bc82e"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="747b4f8e-c73d-4a81-a00e-3138d55bc82e"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b8dab1b4-12ae-4bd0-a854-22d2e6462cd5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="2bc38c2e-d64b-4acb-ba4b-9212744a211c"
+                  LastKnownName="Click Cancel Order"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="62fe7675-513e-4afb-b0fa-891e4e3a9e15"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a94061b1-c94c-4b1d-9d91-92a84409d5ed"
+                  LastKnownName="Click Confirm Order"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="2bc38c2e-d64b-4acb-ba4b-9212744a211c"
+            name="Click Cancel Order"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="56277640-1822-4bfe-b43d-96df74713938"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="55ddbd4f-2821-4720-b805-da1512168844"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="a94061b1-c94c-4b1d-9d91-92a84409d5ed"
+            name="Click Confirm Order"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2f46affd-6b98-4404-a23f-3f199b68deed"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="56be7cfd-065f-4d47-8859-375b785dbbcd"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="463ac54d-c5e9-479e-81d9-a61bde284399"
+            name="System save order and proceed"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4717668e-8c77-4dcc-b87f-71cf4e6699d6"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="55ddbd4f-2821-4720-b805-da1512168844"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="fb6b5847-714f-4c1d-b2d6-d572c858ce7d"
+            name="Warehouse Manager"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="376c467b-92a6-43a4-beeb-3279d98b5ab6"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="4f940bdd-69b0-4a61-862f-d32ac003d169"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="e4e4822d-f85c-4daa-985f-3bc790392e6f"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="99af3095-8441-4865-aa33-0faf481558b3"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6813c801-23ae-4236-829d-cab97aac28d4"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e0ae394b-5196-4f93-9fdd-8d43fcd90971"
+                  LastKnownName="Click &quot;Order&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="e0ae394b-5196-4f93-9fdd-8d43fcd90971"
+            name="Click &quot;Order&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0e2ec976-8e4a-4211-9820-0d6dd11a2690"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="31e628fc-8dd6-4351-86ff-e59137e63e8c"
+                  LastKnownName="Display order in queue"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="31e628fc-8dd6-4351-86ff-e59137e63e8c"
+            name="Display order in queue"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f81dd643-1b91-4424-aadf-096d391d9327"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c35c3a61-44a0-4cef-9d1e-65bfe7f931a5"
+                  LastKnownName="Click &quot;Create book order&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="794e9704-976b-4d6f-9dbb-19a64b9a0a89"
+            name="Display input fields"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8d02f04d-1d86-4983-8cc4-441086f2a3cf"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="cfc63b08-8846-4df5-b7dd-f971d39ed597"
+                  LastKnownName="Input Order Information "
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="56be7cfd-065f-4d47-8859-375b785dbbcd"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="625c882a-0794-4b21-97bc-37d6914472f7"
+                guard="No data conflict"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="463ac54d-c5e9-479e-81d9-a61bde284399"
+                  LastKnownName="System save order and proceed"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="18bece01-3f27-4c09-9c15-5dfd1d14913d"
+                guard="Data conflict"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d4439415-aeeb-482d-b468-8b40ca99f665"
+                  LastKnownName="Display error"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="d4439415-aeeb-482d-b468-8b40ca99f665"
+            name="Display error"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="57843963-e0d3-4b69-bc88-b14f75b6c979"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="55ddbd4f-2821-4720-b805-da1512168844"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="b0a24811-87a5-4342-9138-965c046dc3f7"
+        name="Create Schedule"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="50c63972-a4c2-40ec-a365-eaa5b737d924"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="b971f92e-a5bc-447d-922f-dde81e1c44b9"
+            name="Cashier chooses shift"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7ea4ea9d-97ba-4449-b0ee-ba85d9b9533b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="8e6b4b9f-c8c8-4468-bb66-f2e2a9b05326"
+                  LastKnownName="Cashier inputs staff name &amp; save"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="8e6b4b9f-c8c8-4468-bb66-f2e2a9b05326"
+            name="Cashier inputs staff name &amp; save"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5c9c2d66-d46c-4643-a9c8-0579e9a2be01"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="797f2ffe-bf82-47a5-a488-6b249ba1c72e"
+                  LastKnownName="Save changes"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="4200bfff-679b-4f34-b53b-4620435e79e9"
+            name="Manager"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="280e86d9-ab4d-404a-ac71-fec3ddb52b6f"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="769be867-44c6-406f-854e-d8d270b714a7"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="e8e2b163-c8e6-454b-9fc7-d11d59df56b3"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="5ab7e799-9318-4aff-8420-c49409cff2fd"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3e7fed25-61e4-47b6-8531-dbcd34f0c4fd"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="7a7769d5-5461-463c-b539-e6857cd73f4c"
+                  LastKnownName="Click &quot;Staff&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="7a7769d5-5461-463c-b539-e6857cd73f4c"
+            name="Click &quot;Staff&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2d097eb2-5790-4978-890d-946af4444d9b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4accbe07-4df2-49b8-b209-227e410cf2f7"
+                  LastKnownName="Display staff list"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="4accbe07-4df2-49b8-b209-227e410cf2f7"
+            name="Display staff list"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4a56e8c4-9d2a-41ab-8f73-dc93445b7c9a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1bcfb53a-8299-4add-b87a-2264229de67f"
+                  LastKnownName="Press &quot;View schedule&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1bcfb53a-8299-4add-b87a-2264229de67f"
+            name="Press &quot;View schedule&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ee611916-9c34-4e44-962c-c439d4ad8e7a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="2df7fb32-a1af-4e88-8ee4-fa90ca2b0203"
+                  LastKnownName="Display schedule"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="2df7fb32-a1af-4e88-8ee4-fa90ca2b0203"
+            name="Display schedule"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9e63314a-9f99-46cc-847d-16b906947e2d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b971f92e-a5bc-447d-922f-dde81e1c44b9"
+                  LastKnownName="Cashier chooses shift"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="797f2ffe-bf82-47a5-a488-6b249ba1c72e"
+            name="Save changes"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0fe35e91-477c-4e92-9f92-1d6b9d498156"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="50c63972-a4c2-40ec-a365-eaa5b737d924"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="ce9fb42e-e28e-461c-a270-3a2ddbfb8730"
+        name="Create Stock Orders"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="2d1de4f0-6838-4c20-9401-73a292f3ead2"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="4af88d9d-7e6d-44ee-8cdd-24884c0bed3c"
+            name="Choose “create stock order”"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3e26851a-b659-40bc-93e5-0eddd08f6377"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="190dee34-d1b0-4592-b190-17cbc860f8f5"
+                  LastKnownName="Display input fields"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="01d2746c-3a1c-4ea7-9dd4-80fc7f307208"
+            name="Input information"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="abfe06f7-8deb-4ebf-b299-04f27d95f3d5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5a79dcad-3778-439e-9d7b-d76f609343b2"
+                  LastKnownName="Confirm choices"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="5a79dcad-3778-439e-9d7b-d76f609343b2"
+            name="Confirm choices"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5daa6939-c54a-4189-b8b9-87ea95651924"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="a709db91-5709-461e-80cd-9a206e8ca68f"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f7745f7f-9db9-42ad-a50a-214aeeb64e6c"
+            name="System saves the order"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4fe02838-b122-43b9-b101-feea6bea34ef"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="2d1de4f0-6838-4c20-9401-73a292f3ead2"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="a709db91-5709-461e-80cd-9a206e8ca68f"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5d2a85a6-9fb3-4228-9243-6134ae25327c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f7745f7f-9db9-42ad-a50a-214aeeb64e6c"
+                  LastKnownName="System saves the order"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="46367c55-f8a5-403d-a265-99ee676cce27"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="04e00613-b28e-458b-96b0-d5f2c9dc2336"
+                  LastKnownName="Display error"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <objectNode
+            Id="cc88aba9-41c7-4b7a-8240-37f15a006f63"
+            name="Warehouse Manager"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="fe95f902-73e6-4f95-9dc4-5bcacc3b6c61"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="98ea52dc-f0d1-4f0b-b1f7-42a488ad1e09"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="0ab43c46-7868-4a3d-9343-920e85579307"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="a365a787-9694-4a06-baf9-24a59f42bca5"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="890347e2-cd6d-4450-8bd7-3dddb2916c7d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e5bb37f5-23aa-4a74-bbdf-7618b8642948"
+                  LastKnownName="Click &quot;Stock&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="e5bb37f5-23aa-4a74-bbdf-7618b8642948"
+            name="Click &quot;Stock&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bb7970f4-1af0-43e8-a856-70da5e7bbd04"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="cc4fc4a9-8edc-4d12-9086-a3486789fa3c"
+                  LastKnownName="Display stock list"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="cc4fc4a9-8edc-4d12-9086-a3486789fa3c"
+            name="Display stock list"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a82936f1-ba4e-46ee-940a-1c2777ecf0a6"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4af88d9d-7e6d-44ee-8cdd-24884c0bed3c"
+                  LastKnownName="Choose “create stock order”"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="190dee34-d1b0-4592-b190-17cbc860f8f5"
+            name="Display input fields"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4c7f2a96-0770-4ad0-a9d0-6d3571ec2b2d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="01d2746c-3a1c-4ea7-9dd4-80fc7f307208"
+                  LastKnownName="Input information"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="04e00613-b28e-458b-96b0-d5f2c9dc2336"
+            name="Display error"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="110291c0-1c4c-4e52-88f2-bd74f6193439"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="2d1de4f0-6838-4c20-9401-73a292f3ead2"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="13e9b98a-09cf-45ce-92a0-a1cf8f507339"
+        name="Create vouchers"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <opaqueAction
+            Id="85599c98-dbc8-4791-a424-a0a0744bb976"
+            name="Click &quot;Create voucer&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="da0ca6e4-7b3b-404f-8d43-ee9b2824a296"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="43103f20-d605-4063-a066-49aa7b78d4a0"
+                  LastKnownName="Display input fields"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="80e64c20-e6ec-4f0d-9a40-aa05b517830d"
+            name="Manager"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="10ba6233-6ed2-4e1f-98d6-007edaa81230"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="5f474df3-94e5-43da-96f2-5409cbc12705"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="00142e7a-0b89-455c-ac6e-5db2a1891d13"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="20cd5a15-7e6d-40f1-8565-b4ed5fbfecf7"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d7925fb6-b8bb-49b1-bc15-0fd1be471cd7"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f4fbce82-04fb-4f37-ae74-1f2a1bfb211c"
+                  LastKnownName="Click &quot;VIP&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="f4fbce82-04fb-4f37-ae74-1f2a1bfb211c"
+            name="Click &quot;VIP&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3fe53e32-4b04-4bee-858d-d58b75a7d457"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="053dcf4b-71b1-4705-bd30-c08b061249b4"
+                  LastKnownName="Display information"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="053dcf4b-71b1-4705-bd30-c08b061249b4"
+            name="Display information"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f4da5fe2-57e4-4b33-955e-76c2b23c21eb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="85599c98-dbc8-4791-a424-a0a0744bb976"
+                  LastKnownName="Click &quot;Create voucer&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="43103f20-d605-4063-a066-49aa7b78d4a0"
+            name="Display input fields"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9da2efed-452b-454d-b08a-d3bdf6dd9c53"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e40b94c9-36e7-4aeb-9322-15197ac225b0"
+                  LastKnownName="Confirm choices"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="235729e9-e3f2-41fe-bd7e-fe9d95cb12e8"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="e40b94c9-36e7-4aeb-9322-15197ac225b0"
+            name="Confirm choices"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="82222e9e-5d8c-4989-ae38-45367eba1dbb"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="64a9194c-1bd9-42c9-aade-e9d1118e35b8"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="64a9194c-1bd9-42c9-aade-e9d1118e35b8"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="404411fb-a472-4ff3-bf8b-0e1e76f47c39"
+                guard="Error"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="346e35ae-2e80-48f8-b34a-c3895149cd8b"
+                  LastKnownName="Display error"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="27d4d4d1-a6e2-4c17-b7ed-767edad00e10"
+                guard="No error"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f88dd89a-65ed-42be-a2bd-0c2008fc4cd4"
+                  LastKnownName="Save"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="346e35ae-2e80-48f8-b34a-c3895149cd8b"
+            name="Display error"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e2b778c6-cc4d-4b04-b2cb-671a81f88400"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="235729e9-e3f2-41fe-bd7e-fe9d95cb12e8"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f88dd89a-65ed-42be-a2bd-0c2008fc4cd4"
+            name="Save"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2560e230-f44f-4694-a7f7-eb6d779560a8"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="235729e9-e3f2-41fe-bd7e-fe9d95cb12e8"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="68fd674c-a777-4192-b3d5-dc22b6c679e6"
+        name="Delete Books in Wishlist"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="fc322ab1-1e50-46d6-8c02-3e3cffe5ccdf"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="e49e3d35-1cd1-413d-834d-7afd808c34c5"
+            name="Chooses a book in wishlist"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="293a397a-06fe-400d-b813-3d9a3740ea99"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="8841a585-e73c-47d4-866c-7ff1a48ee1ab"
+                  LastKnownName="Press delete the book from the wishlist"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="8841a585-e73c-47d4-866c-7ff1a48ee1ab"
+            name="Press delete the book from the wishlist"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0d6b07b3-46fb-4df0-84c2-cd8468b6c76d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4523c7ac-526e-4329-a3d7-c6de7bafda5d"
+                  LastKnownName="System display confirm message"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="7739ec76-88ce-4b58-86f7-2f2fdb99887b"
+            name="System delete the book"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7d664a6e-3e1f-4bd1-90cc-43446317dbeb"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="fc322ab1-1e50-46d6-8c02-3e3cffe5ccdf"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="70861eeb-5518-48bd-b533-b2534c1dcc77"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5e23679a-83ed-45ae-ae20-b732f3ccf097"
+                guard="Yes"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="7739ec76-88ce-4b58-86f7-2f2fdb99887b"
+                  LastKnownName="System delete the book"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="c5656cce-4ecd-446c-91f7-47668a61fd45"
+                guard="No"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="fc322ab1-1e50-46d6-8c02-3e3cffe5ccdf"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="4523c7ac-526e-4329-a3d7-c6de7bafda5d"
+            name="System display confirm message"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="05037221-a2c7-4eda-8fe8-42f1ecb4cd45"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="70861eeb-5518-48bd-b533-b2534c1dcc77"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="a9e1cebc-d1b1-4148-b819-d2d1749f498a"
+            name="Click &quot;View book wishlist&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5c048634-bf42-489b-b65e-5e0a30912f2c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="84cda571-e62a-4cc6-a991-328349a61bab"
+                  LastKnownName="Display book wishlist"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="46797b4c-36da-4772-9222-db08205fc7ed"
+            name="Cashier"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="b9a4306f-359d-49eb-9eb1-7a86fe94556b"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="cf0768af-844f-4256-bf1a-a1cc1ef1f62a"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="7847f7a6-58c3-482e-ad1c-51225613ff16"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="1960d52b-12ce-49c9-bc75-30b5b6031b29"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="44e38150-efb8-4a04-be70-1fa34d5a1210"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e12cf1b5-70d5-46c0-b137-712bf4e633aa"
+                  LastKnownName="Click &quot;Book&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="e12cf1b5-70d5-46c0-b137-712bf4e633aa"
+            name="Click &quot;Book&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="145d1665-d6ca-4f64-92ec-3efc1faaa144"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="8c49f439-67c6-4be7-bc53-bd37581d91fb"
+                  LastKnownName="Display book list"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="8c49f439-67c6-4be7-bc53-bd37581d91fb"
+            name="Display book list"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a49cd62f-9328-421c-9611-b04ee904686f"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a9e1cebc-d1b1-4148-b819-d2d1749f498a"
+                  LastKnownName="Click &quot;View book wishlist&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="84cda571-e62a-4cc6-a991-328349a61bab"
+            name="Display book wishlist"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="66b2f19b-28c8-4182-a5c4-8ff1d1e7d98a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e49e3d35-1cd1-413d-834d-7afd808c34c5"
+                  LastKnownName="Chooses a book in wishlist"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="bb36d488-3377-40a0-a7ee-ac543b3cc1f0"
+        name="Search books in wishlist"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="4fabea68-6186-41df-b0bc-a707256ffc78"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="ae397456-7600-49f6-abc0-c4551b417e0c"
+            name="Display result by name"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1f42c6fe-7140-4b8d-b510-21cea783da2b"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="4fabea68-6186-41df-b0bc-a707256ffc78"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="3bbfde88-b902-462a-bde7-e3e1e9ccaeeb"
+            name="Click &quot;View book wishlist&quot;"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9c8a0f62-5e32-4d4a-81b7-6fd4d95bae13"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4fde6be2-78f6-422b-8e20-4c9d88f23000"
+                  LastKnownName="Display book wishlist"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="5c89d55c-aa5f-457c-8f4f-9c2bb042d0ed"
+            name="Staff"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="86aa702b-7104-4cba-8390-d520eff8a948"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="7e35e950-805a-4276-8d8b-694d2f07bd1b"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="3455abd6-846c-496f-baf2-235b450dc78f"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="4f8ff2e0-7aae-4eef-9e6d-077895bb9886"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a77e3612-0009-4e73-8f27-a0db39336745"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="27e24d47-fd07-48f9-965e-ffc73e819e8b"
+                  LastKnownName="Click &quot;Book&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="27e24d47-fd07-48f9-965e-ffc73e819e8b"
+            name="Click &quot;Book&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bdca31fa-8584-4f17-8005-0d4275bb437c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="27643794-7ffc-4b62-97a1-7eee98e2b10b"
+                  LastKnownName="Display book list"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="27643794-7ffc-4b62-97a1-7eee98e2b10b"
+            name="Display book list"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4bd8a4a0-2c94-428b-a33e-96fdb597820b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3bbfde88-b902-462a-bde7-e3e1e9ccaeeb"
+                  LastKnownName="Click &quot;View book wishlist&quot;"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="4fde6be2-78f6-422b-8e20-4c9d88f23000"
+            name="Display book wishlist"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="674efdfc-0686-47e7-a71d-1cb68e763b03"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="17cdaf18-e4e8-4727-95a9-3cfdc82a4de9"
+                  LastKnownName="Click Search icon"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="17cdaf18-e4e8-4727-95a9-3cfdc82a4de9"
+            name="Click Search icon"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="861b4f3c-2e70-4930-8c43-457385313a76"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="63282d65-1d17-4703-b5ff-ec724b510ec1"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="63282d65-1d17-4703-b5ff-ec724b510ec1"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="295d7eac-f767-4015-af82-8db87f06811c"
+                guard="Value in insert box"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ae397456-7600-49f6-abc0-c4551b417e0c"
+                  LastKnownName="Display result by name"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="9aab09ab-23e5-420f-8408-02e03b8844b5"
+                guard="No value in insert box"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d9e0a2d5-ab78-4f3b-8a45-2c95a1aa54d7"
+                  LastKnownName="Display search options"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="d9e0a2d5-ab78-4f3b-8a45-2c95a1aa54d7"
+            name="Display search options"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3466e157-cbbf-4521-a946-6eef2e11620d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="143ff6ca-f5fd-410a-9453-e6e36979d94f"
+                  LastKnownName="Input information &amp; confirm"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="143ff6ca-f5fd-410a-9453-e6e36979d94f"
+            name="Input information &amp; confirm"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4ca314b4-b6c2-4ad6-a227-6c7dfb90fe47"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ce864b57-29db-404a-9073-b0a3d1aa5ad1"
+                  LastKnownName="Display result"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ce864b57-29db-404a-9073-b0a3d1aa5ad1"
+            name="Display result"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b044ce5b-aa26-43c3-8cab-a426cef471e2"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="4fabea68-6186-41df-b0bc-a707256ffc78"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="28dc73c2-1287-465d-b876-77a52cc80388"
+        name="Search Books"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="8650b7d8-bccf-447e-a848-6d04036a29e3"
+            name="ActivityFinal11"
+            isLeaf="false" />
+          <opaqueAction
+            Id="628a4cc3-6caa-420f-b469-df4e6013d9fb"
+            name="Display result by name"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7aa22ba4-656e-4d35-b02e-b3a6cf5f3d63"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="8650b7d8-bccf-447e-a848-6d04036a29e3"
+                  LastKnownName="ActivityFinal11"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="6f9f5491-4ad3-4fa7-8c8d-e92fdcaffc3a"
+            name="Staff"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="ae8e32d4-9c05-4099-91ba-402cdeb349dc"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="7da3003f-fbc6-4498-a2cc-5f48e6282126"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="2a8b730e-2ac3-40d4-b99b-7472cb55e15e"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="339eabd1-2635-4715-8374-fcda376ce782"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f391775e-bba1-4af9-9527-e42467cde6b8"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b4258767-13b7-4f76-9e04-477b8b34a5ae"
+                  LastKnownName="Click &quot;Book&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="b4258767-13b7-4f76-9e04-477b8b34a5ae"
+            name="Click &quot;Book&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6bc8e296-32c8-4742-830c-538f829348d9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="04fb1229-b0aa-4603-86d6-45343f2397ac"
+                  LastKnownName="Display book list"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="04fb1229-b0aa-4603-86d6-45343f2397ac"
+            name="Display book list"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="cdc4dfeb-d9ca-47f3-a9b6-49ea8cb163a3"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="7a9bea5e-e615-443c-a5e1-63f23b6c7b3e"
+                  LastKnownName="Click Search icon"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="7a9bea5e-e615-443c-a5e1-63f23b6c7b3e"
+            name="Click Search icon"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="618bd04e-4f10-401d-a3cf-16c73a085767"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="0bef411e-41ae-4475-9867-c21ad9f9f2d4"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="0bef411e-41ae-4475-9867-c21ad9f9f2d4"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f87a0d25-05e8-4506-8003-1efb29ebd0cd"
+                guard="Value in insert box"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="628a4cc3-6caa-420f-b469-df4e6013d9fb"
+                  LastKnownName="Display result by name"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="ca96c20d-20e4-441f-8379-a590ca6f5905"
+                guard="No value in insert box"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9ce2d190-b7e5-4aef-8cc5-aee1b0b32ff2"
+                  LastKnownName="Display search options"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="9ce2d190-b7e5-4aef-8cc5-aee1b0b32ff2"
+            name="Display search options"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="937b3a5b-aa00-46f6-b483-a3554c9fcbaf"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9f744d2d-90a9-4c66-a5bc-8018cc8c68af"
+                  LastKnownName="Input information &amp; confirm"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9f744d2d-90a9-4c66-a5bc-8018cc8c68af"
+            name="Input information &amp; confirm"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8450bbb6-6ce1-4b6d-a9bd-01ca42327cbd"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9297fd72-a24a-4dee-904d-2f883e99d125"
+                  LastKnownName="Display result"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9297fd72-a24a-4dee-904d-2f883e99d125"
+            name="Display result"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b756e9ca-3cde-4f28-8ba4-042340489d29"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="8650b7d8-bccf-447e-a848-6d04036a29e3"
+                  LastKnownName="ActivityFinal11"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="4b1aeda1-1b27-4f4c-8940-4f4265220028"
+        name="Search dishes-drinks"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="5bc1574f-cf2e-4c46-b9c6-a5204c0a4b00"
+            name="ActivityFinal11"
+            isLeaf="false" />
+          <opaqueAction
+            Id="6aed19d4-c741-41dc-90a0-5ccef7771e5f"
+            name="Display result"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ab0770fd-93b3-4085-8152-17a3cbf9b595"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="5bc1574f-cf2e-4c46-b9c6-a5204c0a4b00"
+                  LastKnownName="ActivityFinal11"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="c9aa8791-0b6b-4e3b-9d73-304c04213c7a"
+            name="Staff"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="9066ca04-4f10-4066-9c89-834e07f17eab"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="235e0d52-d5a3-4e4d-b610-66f67c7e6366"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="503d61c0-6965-471a-9270-5d27ff2ede51"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="a9996cd3-dbd5-4b16-8e4a-d65d80a5ad89"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0c6d818b-1b27-405d-a039-b652159298da"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="429f3532-5bfb-412d-985e-f8448367e185"
+                  LastKnownName="Click &quot;Menu&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="429f3532-5bfb-412d-985e-f8448367e185"
+            name="Click &quot;Menu&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="218d8ddc-e7d2-4fa0-ad0b-ef66222acf0b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="2690f8e2-e65e-4522-b4e4-b807d314f71d"
+                  LastKnownName="Display menu list"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="2690f8e2-e65e-4522-b4e4-b807d314f71d"
+            name="Display menu list"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="64b4bbba-2ed0-4390-961f-c894a2d03743"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="6c76998f-5eed-46b2-8f84-099ada41bab5"
+                  LastKnownName="Input name in search box"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="6c76998f-5eed-46b2-8f84-099ada41bab5"
+            name="Input name in search box"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3b2d7c5c-b560-4a6e-98a6-f9316a6a22bd"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1677291c-bf0d-499c-921d-042e799923d2"
+                  LastKnownName="Press search icon"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1677291c-bf0d-499c-921d-042e799923d2"
+            name="Press search icon"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8512ced8-c731-4443-ba08-2173806d3f90"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="6aed19d4-c741-41dc-90a0-5ccef7771e5f"
+                  LastKnownName="Display result"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="e2c5f02e-9999-4bbd-944e-03185f1cf62a"
+        name="Search material"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="46411a50-9bd5-4dca-9c37-9a057d59d722"
+            name="ActivityFinal11"
+            isLeaf="false" />
+          <opaqueAction
+            Id="27a2bb88-da0e-4bcf-a7e9-9d1849b3478b"
+            name="Display result by name"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="56e0a622-cca7-4341-8191-325d18c013f9"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="46411a50-9bd5-4dca-9c37-9a057d59d722"
+                  LastKnownName="ActivityFinal11"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode
+            Id="ba1f0ca6-46a8-491a-9759-2c07dfeb3b8f"
+            name="Staff"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="fe1bb3cf-30a3-45ba-8b68-280ac1763534"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <objectNode
+            Id="ede3c560-833c-4081-9705-c6273c41022f"
+            name="System"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="c59f1c81-20f6-4b7f-942e-604a45cd7d15"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <initialNode
+            Id="bf4a4c64-3623-4991-9f29-21e0331241a2"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9585adf3-d565-4590-a890-5effef691123"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9d911c76-7d73-4923-abfa-2b8dd658fd0e"
+                  LastKnownName="Click &quot;Stock&quot; tab on the main menu"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="9d911c76-7d73-4923-abfa-2b8dd658fd0e"
+            name="Click &quot;Stock&quot; tab on the main menu"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="894c2689-56cf-43ae-9722-9adbcec73143"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ac1ee2ba-40d3-46e2-83a2-ab7b342e1793"
+                  LastKnownName="Display stock list"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ac1ee2ba-40d3-46e2-83a2-ab7b342e1793"
+            name="Display stock list"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="82167144-1bbf-44e3-b995-c42fb3b73e3d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ba0c511c-97e7-453c-814c-050a0f01105d"
+                  LastKnownName="Input name in search box"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ba0c511c-97e7-453c-814c-050a0f01105d"
+            name="Input name in search box"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4a6ee99d-030c-4280-b46b-52eb455986ca"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5b7676d1-9360-4b1e-8fea-a179df5b0883"
+                  LastKnownName="Press search icon"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="5b7676d1-9360-4b1e-8fea-a179df5b0883"
+            name="Press search icon"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f37ae7c5-e7a6-4004-954f-2ecc82dfe999"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="27a2bb88-da0e-4bcf-a7e9-9d1849b3478b"
+                  LastKnownName="Display result by name"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

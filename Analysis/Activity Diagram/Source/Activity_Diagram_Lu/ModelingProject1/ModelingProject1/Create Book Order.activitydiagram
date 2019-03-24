@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="2213bdce-f3bd-4f58-8534-6ad147d1550e" name="Create Book Order" linkedPackageId="bc4d155c-737f-4493-adea-04b07b1646eb" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="831f994f-8fce-440a-8c99-46c13fb9b1a2" name="Create Book Order" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="79e7b0f3-94cf-413b-98ae-c7f3d5df2405" />
+        <nodes>
+          <activityFinalNode Id="dbd22095-ecb2-4f1d-b0e5-5130d01460cb" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="55ddbd4f-2821-4720-b805-da1512168844" />
+          </activityFinalNode>
+          <opaqueAction Id="bbe896f5-b69a-4963-a580-7bd2340fdced" name="Click &quot;Create book order&quot;" isLeaf="false">
+            <elementDefinition Id="c35c3a61-44a0-4cef-9d1e-65bfe7f931a5" />
+            <flowNodeTargets>
+              <controlFlow Id="2fd1bb86-9383-418c-b6b1-1cf65c7a2b95" isLeaf="false">
+                <opaqueActionMoniker Id="e9a6c336-933e-42e0-b419-3dce37b47075" LastKnownName="Display input fields" />
+                <elementDefinition Id="e20ce823-2284-4e42-bd78-4835eee224b8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="215a0057-15a3-44c7-863e-59682ce4987f" name="Input Order Information " isLeaf="false">
+            <elementDefinition Id="cfc63b08-8846-4df5-b7dd-f971d39ed597" />
+            <flowNodeTargets>
+              <controlFlow Id="7c5b8b46-b1e7-4a59-a2a0-cd3e556660c1" isLeaf="false">
+                <decisionNodeMoniker Id="e930d6eb-8334-4649-8cee-be70808a9605" LastKnownName="Decision1" />
+                <elementDefinition Id="00b45ba1-2f84-46b3-8b30-578563e8eaef" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="e930d6eb-8334-4649-8cee-be70808a9605" name="Decision1" isLeaf="false">
+            <elementDefinition Id="747b4f8e-c73d-4a81-a00e-3138d55bc82e" />
+            <flowNodeTargets>
+              <controlFlow Id="0525bd25-13b0-4b29-9bd1-4811b34dc578" isLeaf="false">
+                <opaqueActionMoniker Id="48a0289c-69cd-4ff9-987a-b15c6b8285a4" LastKnownName="Click Cancel Order" />
+                <elementDefinition Id="b8dab1b4-12ae-4bd0-a854-22d2e6462cd5" />
+              </controlFlow>
+              <controlFlow Id="f695ba5a-cdfe-4587-8725-b666111e5090" isLeaf="false">
+                <opaqueActionMoniker Id="44e0149e-f4e2-40b8-9aaa-b1616b0fecbd" LastKnownName="Click Confirm Order" />
+                <elementDefinition Id="62fe7675-513e-4afb-b0fa-891e4e3a9e15" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="48a0289c-69cd-4ff9-987a-b15c6b8285a4" name="Click Cancel Order" isLeaf="false">
+            <elementDefinition Id="2bc38c2e-d64b-4acb-ba4b-9212744a211c" />
+            <flowNodeTargets>
+              <controlFlow Id="5b966c98-14d8-45fd-9a57-79a70810a53d" isLeaf="false">
+                <activityFinalNodeMoniker Id="dbd22095-ecb2-4f1d-b0e5-5130d01460cb" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="56277640-1822-4bfe-b43d-96df74713938" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="44e0149e-f4e2-40b8-9aaa-b1616b0fecbd" name="Click Confirm Order" isLeaf="false">
+            <elementDefinition Id="a94061b1-c94c-4b1d-9d91-92a84409d5ed" />
+            <flowNodeTargets>
+              <controlFlow Id="dd052ee7-a741-49e4-84f5-109fcd7ab5a2" isLeaf="false">
+                <decisionNodeMoniker Id="3643af86-3417-4db9-8c5b-a55c6262651c" LastKnownName="Decision2" />
+                <elementDefinition Id="2f46affd-6b98-4404-a23f-3f199b68deed" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="040aafa1-f09b-405e-8824-67f2ce13ca48" name="System save order and proceed" isLeaf="false">
+            <elementDefinition Id="463ac54d-c5e9-479e-81d9-a61bde284399" />
+            <flowNodeTargets>
+              <controlFlow Id="8a4da444-5bc0-435b-a795-67a7e3a45177" isLeaf="false">
+                <activityFinalNodeMoniker Id="dbd22095-ecb2-4f1d-b0e5-5130d01460cb" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="4717668e-8c77-4dcc-b87f-71cf4e6699d6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <objectNode Id="26c1f50e-5f80-439b-a2a7-f5396eb427f9" name="Warehouse Manager" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="fb6b5847-714f-4c1d-b2d6-d572c858ce7d" />
+            <upperBound>
+              <literalInteger Id="2f6e7960-1dd8-475b-a80c-37ff700e8b5c" name="2147483647" value="2147483647">
+                <elementDefinition Id="376c467b-92a6-43a4-beeb-3279d98b5ab6" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="172b51df-0da1-4210-a002-727b18cce2b7" name="System" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="4f940bdd-69b0-4a61-862f-d32ac003d169" />
+            <upperBound>
+              <literalInteger Id="c57c416f-44f7-4398-b9eb-327ce1ed38ce" name="2147483647" value="2147483647">
+                <elementDefinition Id="e4e4822d-f85c-4daa-985f-3bc790392e6f" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <initialNode Id="988d8b9f-3930-4ae9-86a1-02e61b75181e" name="Initial11" isLeaf="false">
+            <elementDefinition Id="99af3095-8441-4865-aa33-0faf481558b3" />
+            <flowNodeTargets>
+              <controlFlow Id="d9e5096b-6822-4393-ac1f-7b160e544dc2" isLeaf="false">
+                <opaqueActionMoniker Id="1d308731-7888-4e61-8c78-0282109fbc8e" LastKnownName="Click &quot;Order&quot; tab on the main menu" />
+                <elementDefinition Id="6813c801-23ae-4236-829d-cab97aac28d4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="1d308731-7888-4e61-8c78-0282109fbc8e" name="Click &quot;Order&quot; tab on the main menu" isLeaf="false">
+            <elementDefinition Id="e0ae394b-5196-4f93-9fdd-8d43fcd90971" />
+            <flowNodeTargets>
+              <controlFlow Id="2fa89b38-a5f1-4638-92bb-e20a8aa753df" isLeaf="false">
+                <opaqueActionMoniker Id="10dea289-b5a6-46f1-9610-6692b161b5d4" LastKnownName="Display order in queue" />
+                <elementDefinition Id="0e2ec976-8e4a-4211-9820-0d6dd11a2690" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="10dea289-b5a6-46f1-9610-6692b161b5d4" name="Display order in queue" isLeaf="false">
+            <elementDefinition Id="31e628fc-8dd6-4351-86ff-e59137e63e8c" />
+            <flowNodeTargets>
+              <controlFlow Id="11e2b718-06b6-4786-a464-b5d14bf22792" isLeaf="false">
+                <opaqueActionMoniker Id="bbe896f5-b69a-4963-a580-7bd2340fdced" LastKnownName="Click &quot;Create book order&quot;" />
+                <elementDefinition Id="f81dd643-1b91-4424-aadf-096d391d9327" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e9a6c336-933e-42e0-b419-3dce37b47075" name="Display input fields" isLeaf="false">
+            <elementDefinition Id="794e9704-976b-4d6f-9dbb-19a64b9a0a89" />
+            <flowNodeTargets>
+              <controlFlow Id="840e2dfb-c3a6-4b11-bdd0-ddf245103fca" isLeaf="false">
+                <opaqueActionMoniker Id="215a0057-15a3-44c7-863e-59682ce4987f" LastKnownName="Input Order Information " />
+                <elementDefinition Id="8d02f04d-1d86-4983-8cc4-441086f2a3cf" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="3643af86-3417-4db9-8c5b-a55c6262651c" name="Decision2" isLeaf="false">
+            <elementDefinition Id="56be7cfd-065f-4d47-8859-375b785dbbcd" />
+            <flowNodeTargets>
+              <controlFlow Id="cb05c852-a0cb-49f0-9461-715403c1e1e9" guard="No data conflict" isLeaf="false">
+                <opaqueActionMoniker Id="040aafa1-f09b-405e-8824-67f2ce13ca48" LastKnownName="System save order and proceed" />
+                <elementDefinition Id="625c882a-0794-4b21-97bc-37d6914472f7" />
+              </controlFlow>
+              <controlFlow Id="23492341-f10b-49d9-b1e6-88c00fcc560b" guard="Data conflict" isLeaf="false">
+                <opaqueActionMoniker Id="fafdb33d-22ad-4d19-87f5-fb6abe9cb8e8" LastKnownName="Display error" />
+                <elementDefinition Id="18bece01-3f27-4c09-9c15-5dfd1d14913d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="fafdb33d-22ad-4d19-87f5-fb6abe9cb8e8" name="Display error" isLeaf="false">
+            <elementDefinition Id="d4439415-aeeb-482d-b468-8b40ca99f665" />
+            <flowNodeTargets>
+              <controlFlow Id="533aa47d-3419-4d86-96ba-acac851829f9" isLeaf="false">
+                <activityFinalNodeMoniker Id="dbd22095-ecb2-4f1d-b0e5-5130d01460cb" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="57843963-e0d3-4b69-bc88-b14f75b6c979" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="bc4d155c-737f-4493-adea-04b07b1646eb" name="ModelingProject1">
+    <elementDefinition Id="5c797800-1ba2-47f9-9232-44cf029a44c0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="fb048446-67e0-4571-b8bc-e34676d75951">
+        <profileInstance Id="b12e1b44-299b-4bc2-bc54-e2c14c43b76a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c7e0fa15-8b67-4d4d-9243-43c5c911c6ac">
+        <profileInstance Id="14e2a6a5-196c-4e69-80f5-4317b718ec31" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

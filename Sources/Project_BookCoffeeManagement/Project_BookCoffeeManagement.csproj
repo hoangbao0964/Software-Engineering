@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D57E4145-866B-4AAE-836E-E45FD828874F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project_BookCoffeeManagement</RootNamespace>
+    <AssemblyName>Project_BookCoffeeManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Phate Opera\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>79A194B012732246EB7B8E35FF4D840016AFDC8D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Project_BookCoffeeManagement_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Books\AuthorManager.cs" />
+    <Compile Include="BLL\Books\BookManager.cs" />
+    <Compile Include="BLL\Books\PublisherManager.cs" />
+    <Compile Include="BLL\Contact\ContactManager.cs" />
+    <Compile Include="BLL\ErrorManager.cs" />
+    <Compile Include="BLL\Foods\FoodManager.cs" />
+    <Compile Include="BLL\LanguageManager.cs" />
+    <Compile Include="BLL\Foods\IngredientManager.cs" />
+    <Compile Include="BLL\Manager.cs" />
+    <Compile Include="BLL\Orders\OrderManager.cs" />
+    <Compile Include="BLL\ParameterManager.cs" />
+    <Compile Include="BLL\People\Customers\VIPManager.cs" />
+    <Compile Include="BLL\People\PersonManager.cs" />
+    <Compile Include="BLL\People\Staffs\StaffAccountManager.cs" />
+    <Compile Include="BLL\People\Staffs\StaffManager.cs" />
+    <Compile Include="BLL\Schedule\ScheduleManager.cs" />
+    <Compile Include="BLL\Stocks\StockManager.cs" />
+    <Compile Include="BLL\ThemeManager.cs" />
+    <Compile Include="BLL\ThreadManager.cs" />
+    <Compile Include="BLL\Vouchers\VoucherManager.cs" />
+    <Compile Include="Book_Coffee_DBDataSet_Views.Designer.cs">
+      <DependentUpon>Book_Coffee_DBDataSet_Views.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="DAL\LinqToSQL.cs">
+      <DependentUpon>LinqToSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\LinqToSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LinqToSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Books\Author.cs" />
+    <Compile Include="Entities\Books\Book.cs" />
+    <Compile Include="Entities\Books\BookDetails.cs" />
+    <Compile Include="Entities\Books\Publisher.cs" />
+    <Compile Include="Entities\Books\Wishlist.cs" />
+    <Compile Include="Entities\Foods\Food.cs" />
+    <Compile Include="Entities\Foods\Ingredient.cs" />
+    <Compile Include="Entities\Foods\IngredientDetails.cs" />
+    <Compile Include="Entities\Orders\BookOrder.cs" />
+    <Compile Include="Entities\Orders\BorrowBookOrder.cs" />
+    <Compile Include="Entities\Orders\DishOrder.cs" />
+    <Compile Include="Entities\Orders\Order.cs" />
+    <Compile Include="Entities\Orders\ReturnBookOrder.cs" />
+    <Compile Include="Entities\People\Customers\VIP.cs" />
+    <Compile Include="Entities\People\Person.cs" />
+    <Compile Include="Entities\People\Staffs\Cashier.cs" />
+    <Compile Include="Entities\People\Staffs\Manager.cs" />
+    <Compile Include="Entities\People\Staffs\RegularStaff.cs" />
+    <Compile Include="Entities\People\Staffs\Staff.cs" />
+    <Compile Include="Entities\People\Staffs\StaffAccount.cs" />
+    <Compile Include="Entities\People\Staffs\WarehouseManager.cs" />
+    <Compile Include="Entities\Schedule\DailySchedule.cs" />
+    <Compile Include="Entities\Schedule\Schedule.cs" />
+    <Compile Include="Entities\Schedule\WorkingShift.cs" />
+    <Compile Include="Entities\Stocks\Ingredient_Stock.cs" />
+    <Compile Include="Entities\Stocks\Producer.cs" />
+    <Compile Include="Entities\Stocks\StockItem.cs" />
+    <Compile Include="Entities\Stocks\StockOrder.cs" />
+    <Compile Include="Entities\Stocks\StockOrderDetails.cs" />
+    <Compile Include="Entities\Vouchers\DiscountRate.cs" />
+    <Compile Include="Entities\Vouchers\DiscountRate_Type1.cs" />
+    <Compile Include="Entities\Vouchers\DiscountRate_Type2.cs" />
+    <Compile Include="Entities\Vouchers\DiscountRate_Type3.cs" />
+    <Compile Include="Entities\Vouchers\Voucher.cs" />
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Staff_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Staff_Form.Designer.cs">
+      <DependentUpon>Select_Staff_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_StockItems_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_StockItems_Form.Designer.cs">
+      <DependentUpon>Select_StockItems_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\BookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\BookForm.Designer.cs">
+      <DependentUpon>BookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\ScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\ScheduleForm.Designer.cs">
+      <DependentUpon>ScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\StaffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\StaffForm.Designer.cs">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\Stock_ItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\Stock_ItemForm.Designer.cs">
+      <DependentUpon>Stock_ItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\StockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\StockForm.Designer.cs">
+      <DependentUpon>StockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\VIPForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\VIPForm.Designer.cs">
+      <DependentUpon>VIPForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\VoucherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\VoucherForm.Designer.cs">
+      <DependentUpon>VoucherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Template\FormTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Template\FormTemplate.Designer.cs">
+      <DependentUpon>FormTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Template\FormTemplate_SelectionCollector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Template\FormTemplate_SelectionCollector.Designer.cs">
+      <DependentUpon>FormTemplate_SelectionCollector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\OrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\OrderForm.Designer.cs">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Book_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Book_Form.Designer.cs">
+      <DependentUpon>Select_Book_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Dish_Drink_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Dish_Drink_Form.Designer.cs">
+      <DependentUpon>Select_Dish_Drink_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Ingredient_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\Collector forms\Select_Ingredient_Form.Designer.cs">
+      <DependentUpon>Select_Ingredient_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\WishlistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Input Output Forms\IO forms\WishlistForm.Designer.cs">
+      <DependentUpon>WishlistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoadingScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoadingScreen.Designer.cs">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainActive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainActive.Designer.cs">
+      <DependentUpon>MainActive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Report\Report.rdlc" />
+    <EmbeddedResource Include="Resources\Languages\Language.Vi.resx" />
+    <EmbeddedResource Include="Resources\Languages\Language.En.resx" />
+    <None Include="Book_Coffee_DBDataSet_Views.xsc">
+      <DependentUpon>Book_Coffee_DBDataSet_Views.xsd</DependentUpon>
+    </None>
+    <None Include="Book_Coffee_DBDataSet_Views.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Book_Coffee_DBDataSet_Views.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Book_Coffee_DBDataSet_Views.xss">
+      <DependentUpon>Book_Coffee_DBDataSet_Views.xsd</DependentUpon>
+    </None>
+    <None Include="DAL\LinqToSQL.dbml.layout">
+      <DependentUpon>LinqToSQL.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="GUI\Input Output Forms\Collector forms\Select_Book_Form.resx">
+      <DependentUpon>Select_Book_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\Collector forms\Select_Dish_Drink_Form.resx">
+      <DependentUpon>Select_Dish_Drink_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\Collector forms\Select_Staff_Form.resx">
+      <DependentUpon>Select_Staff_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\Collector forms\Select_StockItems_Form.resx">
+      <DependentUpon>Select_StockItems_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\BookForm.resx">
+      <DependentUpon>BookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\ScheduleForm.resx">
+      <DependentUpon>ScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\StaffForm.resx">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\StockForm.resx">
+      <DependentUpon>StockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\Stock_ItemForm.resx">
+      <DependentUpon>Stock_ItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\VIPForm.resx">
+      <DependentUpon>VIPForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\VoucherForm.resx">
+      <DependentUpon>VoucherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\Template\FormTemplate.resx">
+      <DependentUpon>FormTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\Template\FormTemplate_SelectionCollector.resx">
+      <DependentUpon>FormTemplate_SelectionCollector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\OrderForm.resx">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\Collector forms\Select_Ingredient_Form.resx">
+      <DependentUpon>Select_Ingredient_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Input Output Forms\IO forms\WishlistForm.resx">
+      <DependentUpon>WishlistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoadingScreen.resx">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainActive.resx">
+      <DependentUpon>MainActive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DAL\LinqToSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LinqToSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Project_BookCoffeeManagement_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBConnectionString.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multiply Filled-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash Register-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurant-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Literature-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VIP-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conference Call-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filing Cabinet-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filing Cabinet-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payment History-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-26-#117070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mark As Favorite-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipped-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipped-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mark As Favorite Filled-50-#117070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipped-26-#117070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shipped Filled-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Order History-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Property-26 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return Filled-50_#117070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

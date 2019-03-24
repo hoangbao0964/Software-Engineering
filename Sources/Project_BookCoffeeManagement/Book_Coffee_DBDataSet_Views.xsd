@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Book_Coffee_DBDataSet" targetNamespace="http://tempuri.org/Book_Coffee_DBDataSet1.xsd" xmlns:mstns="http://tempuri.org/Book_Coffee_DBDataSet1.xsd" xmlns="http://tempuri.org/Book_Coffee_DBDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Book_Coffee_DBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Book_Coffee_DBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Project_BookCoffeeManagement.Properties.Settings.GlobalReference.Default.Book_Coffee_DBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_SalariesTableAdapter" GeneratorDataComponentClassName="View_SalariesTableAdapter" Name="View_Salaries" UserDataComponentName="View_SalariesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Book_Coffee_DBConnectionString (Settings)" DbObjectName="Book_Coffee_DB.dbo.View_Salaries" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT fullName, TotalSalary FROM dbo.View_Salaries</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="fullName" DataSetColumn="fullName" />
+              <Mapping SourceColumn="TotalSalary" DataSetColumn="TotalSalary" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_OrderIncomeTableAdapter" GeneratorDataComponentClassName="View_OrderIncomeTableAdapter" Name="View_OrderIncome" UserDataComponentName="View_OrderIncomeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Book_Coffee_DBConnectionString (Settings)" DbObjectName="Book_Coffee_DB.dbo.View_OrderIncome" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Year, Month, TotalIncome FROM dbo.View_OrderIncome</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Year" DataSetColumn="Year" />
+              <Mapping SourceColumn="Month" DataSetColumn="Month" />
+              <Mapping SourceColumn="TotalIncome" DataSetColumn="TotalIncome" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_StockOutcomeTableAdapter" GeneratorDataComponentClassName="View_StockOutcomeTableAdapter" Name="View_StockOutcome" UserDataComponentName="View_StockOutcomeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Book_Coffee_DBConnectionString (Settings)" DbObjectName="Book_Coffee_DB.dbo.View_StockOutcome" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Year, Month, TotalStockPayment FROM dbo.View_StockOutcome</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Year" DataSetColumn="Year" />
+              <Mapping SourceColumn="Month" DataSetColumn="Month" />
+              <Mapping SourceColumn="TotalStockPayment" DataSetColumn="TotalStockPayment" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_TotalIncomeTableAdapter" GeneratorDataComponentClassName="View_TotalIncomeTableAdapter" Name="View_TotalIncome" UserDataComponentName="View_TotalIncomeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Book_Coffee_DBConnectionString (Settings)" DbObjectName="Book_Coffee_DB.dbo.View_TotalIncome" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Year, Month, TotalMoney, OrderIncome, StockPayment FROM View_TotalIncome</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Year" DataSetColumn="Year" />
+              <Mapping SourceColumn="Month" DataSetColumn="Month" />
+              <Mapping SourceColumn="TotalMoney" DataSetColumn="TotalMoney" />
+              <Mapping SourceColumn="OrderIncome" DataSetColumn="OrderIncome" />
+              <Mapping SourceColumn="StockPayment" DataSetColumn="StockPayment" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Book_Coffee_DBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Book_Coffee_DBDataSet" msprop:Generator_UserDSName="Book_Coffee_DBDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_Salaries" msprop:Generator_TableClassName="View_SalariesDataTable" msprop:Generator_TableVarName="tableView_Salaries" msprop:Generator_RowChangedName="View_SalariesRowChanged" msprop:Generator_TablePropName="View_Salaries" msprop:Generator_RowDeletingName="View_SalariesRowDeleting" msprop:Generator_RowChangingName="View_SalariesRowChanging" msprop:Generator_RowEvHandlerName="View_SalariesRowChangeEventHandler" msprop:Generator_RowDeletedName="View_SalariesRowDeleted" msprop:Generator_RowClassName="View_SalariesRow" msprop:Generator_UserTableName="View_Salaries" msprop:Generator_RowEvArgName="View_SalariesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fullName" msprop:Generator_ColumnVarNameInTable="columnfullName" msprop:Generator_ColumnPropNameInRow="fullName" msprop:Generator_ColumnPropNameInTable="fullNameColumn" msprop:Generator_UserColumnName="fullName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalSalary" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalSalary" msprop:Generator_ColumnPropNameInRow="TotalSalary" msprop:Generator_ColumnPropNameInTable="TotalSalaryColumn" msprop:Generator_UserColumnName="TotalSalary" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_OrderIncome" msprop:Generator_TableClassName="View_OrderIncomeDataTable" msprop:Generator_TableVarName="tableView_OrderIncome" msprop:Generator_RowChangedName="View_OrderIncomeRowChanged" msprop:Generator_TablePropName="View_OrderIncome" msprop:Generator_RowDeletingName="View_OrderIncomeRowDeleting" msprop:Generator_RowChangingName="View_OrderIncomeRowChanging" msprop:Generator_RowEvHandlerName="View_OrderIncomeRowChangeEventHandler" msprop:Generator_RowDeletedName="View_OrderIncomeRowDeleted" msprop:Generator_RowClassName="View_OrderIncomeRow" msprop:Generator_UserTableName="View_OrderIncome" msprop:Generator_RowEvArgName="View_OrderIncomeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalIncome" msprop:Generator_ColumnVarNameInTable="columnTotalIncome" msprop:Generator_ColumnPropNameInRow="TotalIncome" msprop:Generator_ColumnPropNameInTable="TotalIncomeColumn" msprop:Generator_UserColumnName="TotalIncome" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_StockOutcome" msprop:Generator_TableClassName="View_StockOutcomeDataTable" msprop:Generator_TableVarName="tableView_StockOutcome" msprop:Generator_RowChangedName="View_StockOutcomeRowChanged" msprop:Generator_TablePropName="View_StockOutcome" msprop:Generator_RowDeletingName="View_StockOutcomeRowDeleting" msprop:Generator_RowChangingName="View_StockOutcomeRowChanging" msprop:Generator_RowEvHandlerName="View_StockOutcomeRowChangeEventHandler" msprop:Generator_RowDeletedName="View_StockOutcomeRowDeleted" msprop:Generator_RowClassName="View_StockOutcomeRow" msprop:Generator_UserTableName="View_StockOutcome" msprop:Generator_RowEvArgName="View_StockOutcomeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalStockPayment" msprop:Generator_ColumnVarNameInTable="columnTotalStockPayment" msprop:Generator_ColumnPropNameInRow="TotalStockPayment" msprop:Generator_ColumnPropNameInTable="TotalStockPaymentColumn" msprop:Generator_UserColumnName="TotalStockPayment" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="View_TotalIncome" msprop:Generator_TableClassName="View_TotalIncomeDataTable" msprop:Generator_TableVarName="tableView_TotalIncome" msprop:Generator_RowChangedName="View_TotalIncomeRowChanged" msprop:Generator_TablePropName="View_TotalIncome" msprop:Generator_RowDeletingName="View_TotalIncomeRowDeleting" msprop:Generator_RowChangingName="View_TotalIncomeRowChanging" msprop:Generator_RowEvHandlerName="View_TotalIncomeRowChangeEventHandler" msprop:Generator_RowDeletedName="View_TotalIncomeRowDeleted" msprop:Generator_RowClassName="View_TotalIncomeRow" msprop:Generator_UserTableName="View_TotalIncome" msprop:Generator_RowEvArgName="View_TotalIncomeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalMoney" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalMoney" msprop:Generator_ColumnPropNameInRow="TotalMoney" msprop:Generator_ColumnPropNameInTable="TotalMoneyColumn" msprop:Generator_UserColumnName="TotalMoney" type="xs:double" minOccurs="0" />
+              <xs:element name="OrderIncome" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnOrderIncome" msprop:Generator_ColumnPropNameInRow="OrderIncome" msprop:Generator_ColumnPropNameInTable="OrderIncomeColumn" msprop:Generator_UserColumnName="OrderIncome" type="xs:double" minOccurs="0" />
+              <xs:element name="StockPayment" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnStockPayment" msprop:Generator_ColumnPropNameInRow="StockPayment" msprop:Generator_ColumnPropNameInTable="StockPaymentColumn" msprop:Generator_UserColumnName="StockPayment" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1f5874e2-7fe8-4f42-a394-051f059d76a1}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ModelingProject1</Name>
+    <RootNamespace>ModelingProject1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="Search books in wishlist.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Search books in wishlist.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Search books in wishlist.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Search Books.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Search Books.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Search Books.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Search dishes-drinks.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Search dishes-drinks.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Search dishes-drinks.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Search material.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Search material.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Search material.activitydiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="Add Books.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Add Books.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Add Books.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Add ingredient.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Add ingredient.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Add ingredient.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Cancel Stock Orders.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Cancel Stock Orders.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Cancel Stock Orders.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Create Book Order.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Create Book Order.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Create Book Order.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Create Schedule.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Create Schedule.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Create Schedule.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Create Stock Orders.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Create Stock Orders.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Create Stock Orders.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Create vouchers.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Create vouchers.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Create vouchers.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Delete Books in Wishlist.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Delete Books in Wishlist.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Delete Books in Wishlist.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\ModelingProject1.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
